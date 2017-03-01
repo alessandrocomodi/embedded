@@ -1,0 +1,1029 @@
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source /home/alessandro/Documents/openpiton/piton/tools/src/proto/vivado/gen_project.tcl
+# set DV_ROOT $::env(DV_ROOT)
+# source $DV_ROOT/tools/src/proto/vivado/setup.tcl
+## source $DV_ROOT/tools/src/proto/common/setup.tcl
+### set MODEL_DIR $::env(MODEL_DIR)
+### set DESIGN_DIR $::env(PROTOSYN_RUNTIME_DESIGN_PATH)
+### set BOARD $::env(PROTOSYN_RUNTIME_BOARD)
+### set BOARD_DIR "${DESIGN_DIR}/$BOARD"
+### source $DV_ROOT/tools/src/proto/common/rtl_setup.tcl
+#### set GLOBAL_INCLUDE_DIRS "${DV_ROOT}/design/include ${DV_ROOT}/design/chipset/include"
+#### set GLOBAL_INCLUDE_FILES [list \
+####     "${DV_ROOT}/design/include/define.vh" \
+####     "${DV_ROOT}/design/include/piton_system.vh" \
+####     "${DV_ROOT}/design/include/dmbr_define.v" \
+####     "${DV_ROOT}/design/include/l15.h" \
+####     "${DV_ROOT}/design/include/l2.h" \
+####     "${DV_ROOT}/design/include/network_define.v" \
+####     "${DV_ROOT}/design/include/jtag.vh" \
+####     "${DV_ROOT}/design/include/ifu.h" \
+####     "${DV_ROOT}/design/include/lsu.h" \
+####     "${DV_ROOT}/design/chipset/include/chipset_define.vh" \
+#### ]
+#### set GLOBAL_DEFAULT_VERILOG_MACROS "NO_SCAN FPGA_SYN NO_USE_IBM_SRAMS PITON_FPGA_SYNTH PITON_PROTO"
+#### set SYSTEM_RTL_IMPL_FILES [list \
+####     "${DV_ROOT}/design/rtl/system.v" \
+#### ]
+#### set SYSTEM_INCLUDE_FILES [list \
+#### ]
+#### set SYSTEM_IP_FILE_PREFIXES [list \
+#### ]
+#### set SYSTEM_COE_IP_FILES [list \
+#### ]
+#### set SYSTEM_PRJ_IP_FILES [list \
+#### ]
+#### set CHIP_RTL_IMPL_FILES [list \
+####     "${DV_ROOT}/design/chip/rtl/synchronizer.v" \
+####     "${DV_ROOT}/design/chip/rtl/OCI.v" \
+####     "${DV_ROOT}/design/chip/rtl/chip.v" \
+####     "${DV_ROOT}/design/chip/jtag/rtl/jtag.v" \
+####     "${DV_ROOT}/design/chip/jtag/rtl/jtag_interface_tap.v" \
+####     "${DV_ROOT}/design/chip/jtag/rtl/jtag_ucb_transmitter.v" \
+####     "${DV_ROOT}/design/chip/jtag/rtl/jtag_ucb_receiver.v" \
+####     "${DV_ROOT}/design/chip/jtag/rtl/jtag_interface.v" \
+####     "${DV_ROOT}/design/chip/jtag/rtl/jtag_ctap.v" \
+####     "${DV_ROOT}/design/chip/chip_bridge/rtl/chip_bridge.v" \
+####     "${DV_ROOT}/design/chip/chip_bridge/rtl/chip_bridge_send_32.v" \
+####     "${DV_ROOT}/design/chip/chip_bridge/rtl/chip_bridge_rcv_32.v" \
+####     "${DV_ROOT}/design/chip/chip_bridge/rtl/sync_fifo.v" \
+####     "${DV_ROOT}/design/chip/chip_bridge/rtl/chip_net_chooser_32.v" \
+####     "${DV_ROOT}/design/chip/tile/dmbr/rtl/dmbr.v" \
+####     "${DV_ROOT}/design/chip/tile/rtl/tile.v" \
+####     "${DV_ROOT}/design/chip/tile/rtl/config_regs.v" \
+####     "${DV_ROOT}/design/chip/tile/rtl/cpx_arbitrator.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_priority_encoder.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_data_pgen.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_data_ecc.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_smc.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_pipe2_dpath.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_pipe2_ctrl.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_pipe2_buf_in.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_pipe1_dpath.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_pipe1_ctrl.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_pipe1_buf_out.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_pipe1_buf_in.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_mshr_decoder.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_mshr.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_encoder.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_decoder.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_broadcast_counter.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_smc_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_pipe2.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_pipe1.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_mshr_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_config_regs.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_broadcast_counter_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_tag_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_state_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_dir_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_data_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_tag.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_state.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_dir.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_data.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/sram_wrappers/sram_l2_tag.v.xlx.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/sram_wrappers/sram_l2_state.v.xlx.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/sram_wrappers/sram_l2_dir.v.xlx.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/sram_wrappers/sram_l2_data.v.xlx.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/sram_wrappers/bram_wrappers/bram_sdp_256x104_wrapper.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/sram_wrappers/bram_wrappers/bram_sdp_128x108_wrapper.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/sram_wrappers/bram_wrappers/bram_sdp_1024x64_wrapper.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/sram_wrappers/bram_wrappers/bram_sdp_512x64_wrapper.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/sram_wrappers/bram_wrappers/bram_sdp_4096x144_wrapper.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/sram_wrappers/bram_wrappers/bram_sdp_2048x144_wrapper.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/l15_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/l15.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/rf_l15_wmt.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/rf_l15_lruarray.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/rf_l15_mesi.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/l15_pipeline.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/l15_mshr.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/l15_csm.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/l15_cpxencoder.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/noc3encoder.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/noc3buffer.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/noc2decoder.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/noc1encoder.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/noc1buffer.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/simplenocbuffer.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/pcx_decoder.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/pcx_buffer.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/l15_priority_encoder.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/l15_home_encoder.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/l15_hmc.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/sram_wrappers/sram_l15_tag.v.xlx.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/sram_wrappers/sram_l15_hmt.v.xlx.v" \
+####     "${DV_ROOT}/design/chip/tile/l15/rtl/sram_wrappers/sram_l15_data.v.xlx.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/rtl/dynamic_node_top_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/rtl/dynamic_node_top.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_datapath.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_control.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_control.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_top.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_top_4.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_top_16.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_route_request_calc.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/components/rtl/one_of_five.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/components/rtl/one_of_eight.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/components/rtl/net_dff.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/components/rtl/flip_bus.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/components/rtl/bus_compare_equal.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/common/rtl/space_avail_top.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/common/rtl/network_input_blk_multi_out.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_arb_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_arb.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_buf.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_out.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_mul.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_in.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_div.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_add.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_in2_gt_in1_frac.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_denorm_frac.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_cnt_lead0_64b.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_cnt_lead0_53b.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_rptr_min_global.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_rptr_macros.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_out_dp.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_out_ctl.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_mul_frac_dp.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_mul_exp_dp.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_mul_ctl.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_in_dp.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_in_ctl.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_div_frac_dp.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_div_exp_dp.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_div_ctl.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_add_frac_dp.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_add_exp_dp.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_add_ctl.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_rptr_groups.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_in2_gt_in1_3to1.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_in2_gt_in1_3b.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_in2_gt_in1_2b.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_denorm_3to1.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_denorm_3b.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_cnt_lead0_lvl4.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_cnt_lead0_lvl3.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_cnt_lead0_lvl2.v" \
+####     "${DV_ROOT}/design/chip/tile/fpu/rtl/fpu_cnt_lead0_lvl1.v" \
+####     "${DV_ROOT}/design/chip/tile/rtap/rtl/rtap.v" \
+####     "${DV_ROOT}/design/chip/tile/rtap/rtl/rtap_ucb_transmitter.v" \
+####     "${DV_ROOT}/design/chip/tile/rtap/rtl/rtap_ucb_receiver.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/swrvr_clib.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/swrvr_dlib.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/u1.beh.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/m1.beh.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/mul64.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/ucb_bus_out.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/ucb_bus_in.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/valrdy_to_credit.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/credit_to_valrdy.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/flat_id_to_xy.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/clk_gating_latch.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/test_stub_scan.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/synchronizer_asr.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/synchronizer_asr_dup.v" \
+####     "${DV_ROOT}/design/chip/tile/common/srams/rtl/bw_r_rf16x160.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/ucb_flow_2buf.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/sync_pulse_synchronizer.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/dbl_buf.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/ucb_flow_spi.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/test_stub_bist.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/ucb_flow_jbi.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/ucb_noflow.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/cmp_sram_redhdr.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/cluster_header.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/cluster_header_ctu.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/rtl/sparc.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/rtl/sparc_core.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/rtl/cpx_spc_rpt.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/rtl/cpx_spc_buf.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/rtl/cfg_asi.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_shft.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_rml.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_ecl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_ecc.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_div.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_byp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_alu.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_rml_inc3.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_rml_cwp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_reg.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_ecl_wb.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_ecl_mdqctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_ecl_eccctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_ecl_divcntl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_eclccr.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_eclbyplog_rs1.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_eclbyplog.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_ecc_dec.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_div_yreg.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_div_32eql.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_byp_eccgen.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_alu_16eql.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_aluzcmp64.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_alulogic.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_aluaddsub.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_rndrob.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_ecl_cnt6.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_eclcomp7.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_aluspr.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_aluor32.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/rtl/sparc_exu_aluadder64.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/bw_r_irf/rtl/bw_r_irf_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/bw_r_irf/rtl/bw_r_irf.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/bw_r_irf/bw_r_irf_register8/rtl/bw_r_irf_register8.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/bw_r_irf/bw_r_irf_register16/rtl/bw_r_irf_register16.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/exu/bw_r_irf/common/rtl/bw_r_irf_register.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ffu/rtl/sparc_ffu_nospu_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ffu/rtl/sparc_ffu.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ffu/rtl/sparc_ffu_vis.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ffu/rtl/sparc_ffu_dp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ffu/rtl/sparc_ffu_ctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ffu/rtl/sparc_ffu_part_add32.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ffu/rtl/sparc_ffu_ctl_visctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_nospu_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_wseldp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_swl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_sscan.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_invctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_imd.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_ifqdp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_ifqctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_fdp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_fcl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_errdp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_errctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_dec.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_dcl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_thrfsm.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_thrcmpl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_swpla.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_rndrob.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_par34.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_par32.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_par16.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_milfsm.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_lru4.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_lfsr5.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_incr46.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_ctr5.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_cmp35.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_stsm.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_shiftreg.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_rtsm.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_lfsr.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_htsm.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_counter.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_fsm.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_nospu_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_tlbdp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_tagdp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_stb_rwdp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_stb_rwctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_stb_ctldp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_stb_ctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_qdp2.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_qdp1.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_qctl2.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_qctl1.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_excpctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_dctldp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_dctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_dcdp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_rrobin_picker2.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_pcx_qmon.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_dc_parity_gen.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_dcache_lfsr.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/lsu/rtl/lsu_asi_decode.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/mul/rtl/sparc_mul_top_nospu_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/mul/rtl/sparc_mul_top.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/mul/rtl/sparc_mul_dp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/mul/rtl/sparc_mul_cntl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/tlu_nospu_wrap.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/tlu.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/tlu_tdp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/tlu_tcl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/tlu_pib.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/tlu_mmu_dp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/tlu_mmu_ctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/tlu_misctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/tlu_incr64.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/tlu_hyperv.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/sparc_tlu_intdp.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/sparc_tlu_intctl.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/tlu_rrobin_picker.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/tlu_prencoder16.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/tlu_addern_32.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/sparc_tlu_zcmp64.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/sparc_tlu_penc64.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/tlu/rtl/sparc_tlu_dec64.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/bw_r_dtlb.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/bw_r_itlb.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/bw_r_ict.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/bw_r_icd.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/bw_r_dct.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/bw_r_dcd.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/bw_r_scm.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/bw_r_frf.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/bw_r_rf32x80.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/bw_r_rf32x152b.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/sram_l1d_val.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/sram_l1i_val.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/sram_wrappers/sram_1rw_128x78.v.xlx.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/sram_wrappers/sram_l1d_data.v.xlx.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/sram_wrappers/sram_l1d_tag.v.xlx.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/sram_wrappers/sram_l1i_data.v.xlx.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/sram_wrappers/sram_l1i_tag.v.xlx.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/sram_wrappers/bram_wrappers/bram_sdp_128x288_wrapper.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/sram_wrappers/bram_wrappers/bram_sdp_128x80_wrapper.v" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/rtl/sram_wrappers/bram_wrappers/bram_sdp_256x272_wrapper.v" \
+#### ]
+#### set CHIP_INCLUDE_FILES [list \
+#### ]
+#### set CHIP_IP_FILE_PREFIXES [list \
+####     "${DV_ROOT}/design/chip/xilinx/${BOARD}/ip_cores/clk_mmcm_chip/clk_mmcm_chip" \
+####     "${DV_ROOT}/design/chip/chip_bridge/xilinx/${BOARD}/ip_cores/afifo_w64_d16/afifo_w64_d16" \
+####     "${DV_ROOT}/design/chip/chip_bridge/xilinx/${BOARD}/ip_cores/afifo_w3_d16/afifo_w3_d16" \
+####     "${DV_ROOT}/design/chip/chip_bridge/xilinx/${BOARD}/ip_cores/fifo_w64_d16/fifo_w64_d16" \
+####     "${DV_ROOT}/design/chip/chip_bridge/xilinx/${BOARD}/ip_cores/fifo_w3_d16/fifo_w3_d16" \
+####     "${DV_ROOT}/design/chip/tile/l2/xilinx/${BOARD}/ip_cores/bram_512x64/bram_512x64" \
+####     "${DV_ROOT}/design/chip/tile/l2/xilinx/${BOARD}/ip_cores/bram_2p_128x176/bram_2p_128x176" \
+####     "${DV_ROOT}/design/chip/tile/l2/xilinx/${BOARD}/ip_cores/bram_2p_256x176/bram_2p_256x176" \
+####     "${DV_ROOT}/design/chip/tile/l2/xilinx/${BOARD}/ip_cores/bram_128x108/bram_128x108" \
+####     "${DV_ROOT}/design/chip/tile/l2/xilinx/${BOARD}/ip_cores/bram_256x104/bram_256x104" \
+####     "${DV_ROOT}/design/chip/tile/l2/xilinx/${BOARD}/ip_cores/bram_1024x64/bram_1024x64" \
+####     "${DV_ROOT}/design/chip/tile/l2/xilinx/${BOARD}/ip_cores/bram_2048x144/bram_2048x144" \
+####     "${DV_ROOT}/design/chip/tile/l2/xilinx/${BOARD}/ip_cores/bram_4096x144/bram_4096x144" \
+####     "${DV_ROOT}/design/chip/tile/l15/xilinx/${BOARD}/ip_cores/bram_512x32/bram_512x32" \
+####     "${DV_ROOT}/design/chip/tile/l15/xilinx/${BOARD}/ip_cores/bram_512x128/bram_512x128" \
+####     "${DV_ROOT}/design/chip/tile/common/xilinx/${BOARD}/ip_cores/bram_128x160/bram_128x160" \
+####     "${DV_ROOT}/design/chip/tile/sparc/srams/xilinx/${BOARD}/ip_cores/bram_128x80/bram_128x80" \
+#### ]
+#### set CHIP_COE_IP_FILES [list \
+#### ]
+#### set CHIP_PRJ_IP_FILES [list \
+#### ]
+#### set PASSTHRU_RTL_IMPL_FILES [list \
+####     "${DV_ROOT}/design/passthru/rtl/passthru.v" \
+####     "${DV_ROOT}/design/passthru/passthru_nodec/rtl/passthru_nodec.v" \
+####     "${DV_ROOT}/design/passthru/passthru_dec/rtl/passthru_dec.v" \
+####     "${DV_ROOT}/design/common/rtl/chip_rst_seq.v" \
+####     "${DV_ROOT}/design/common/rtl/alarm_counter.v" \
+####     "${DV_ROOT}/design/common/fpga_bridge/rtl/fpga_bridge.v" \
+####     "${DV_ROOT}/design/common/fpga_bridge/fpga_send/rtl/fpga_net_chooser_32.v" \
+####     "${DV_ROOT}/design/common/fpga_bridge/fpga_send/rtl/fpga_bridge_send_32.v" \
+####     "${DV_ROOT}/design/common/fpga_bridge/fpga_rcv/rtl/fpga_bridge_rcv_32.v" \
+####     "${DV_ROOT}/design/common/uart_pkttrace_dump/rtl/uart_pkttrace_dump.v" \
+####     "${DV_ROOT}/design/common/uart_pkttrace_dump/rtl/uart_serializer.v" \
+####     "${DV_ROOT}/design/common/uart_pkttrace_dump/rtl/noc2string.v" \
+####     "${DV_ROOT}/design/common/uart_pkttrace_dump/rtl/side2string.v" \
+####     "${DV_ROOT}/design/common/uart_pkttrace_dump/rtl/bits2hex.v" \
+####     "${DV_ROOT}/design/common/uart_pkttrace_dump/rtl/demux_process_pkt.v" \
+####     "${DV_ROOT}/design/common/uart_pkttrace_dump/rtl/process_pkt_complete.v" \
+####     "${DV_ROOT}/design/common/uart_pkttrace_dump/rtl/mux_process_pkt.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/Const.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/Counter.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/IORegister.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/ParityGen.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/Register.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/Reverse.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/ShiftRegister.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/UART.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/UAReceiver.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/UATransmitter.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/valrdy_to_credit.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/credit_to_valrdy.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/common/rtl/network_input_blk_multi_out.v" \
+#### ]
+#### set PASSTHRU_INCLUDE_FILES [list \
+#### ]
+#### set PASSTHRU_IP_FILE_PREFIXES [list \
+####     "${DV_ROOT}/design/passthru/xilinx/${BOARD}/ip_cores/clk_dcm/clk_dcm" \
+####     "${DV_ROOT}/design/passthru/passthru_nodec/xilinx/${BOARD}/ip_cores/afifo_w34_d2048/afifo_w34_d2048" \
+####     "${DV_ROOT}/design/passthru/passthru_nodec/xilinx/${BOARD}/ip_cores/afifo_w3_d2048/afifo_w3_d2048" \
+####     "${DV_ROOT}/design/common/fpga_bridge/common/xilinx/${BOARD}/ip_cores/afifo_w64/afifo_w64" \
+####     "${DV_ROOT}/design/common/fpga_bridge/fpga_rcv/xilinx/${BOARD}/ip_cores/afifo_w3/afifo_w3" \
+#### ]
+#### set PASSTHRU_COE_IP_FILES [list \
+#### ]
+#### set PASSTHRU_PRJ_IP_FILES [list \
+#### ]
+#### set CHIPSET_RTL_IMPL_FILES [list \
+####     "${DV_ROOT}/design/chipset/rtl/chipset.v" \
+####     "${DV_ROOT}/design/chipset/rtl/chipset_impl.v" \
+####     "${DV_ROOT}/design/chipset/rtl/blinker.v" \
+####     "${DV_ROOT}/design/chipset/rtl/storage_addr_trans.v" \
+####     "${DV_ROOT}/design/chipset/rtl/storage_addr_trans_unified.v" \
+####     "${DV_ROOT}/design/common/fpga_bridge/rtl/fpga_bridge.v" \
+####     "${DV_ROOT}/design/common/fpga_bridge/fpga_send/rtl/fpga_net_chooser_32.v" \
+####     "${DV_ROOT}/design/common/fpga_bridge/fpga_send/rtl/fpga_bridge_send_32.v" \
+####     "${DV_ROOT}/design/common/fpga_bridge/fpga_rcv/rtl/fpga_bridge_rcv_32.v" \
+####     "${DV_ROOT}/design/chipset/mem_io_splitter/rtl/mem_io_splitter.v" \
+####     "${DV_ROOT}/design/chipset/mem_io_splitter/rtl/iob_splitter.v" \
+####     "${DV_ROOT}/design/chipset/mem_io_splitter/rtl/uart_boot_splitter.v" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/rtl/io_ctrl_top.v" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/rtl/ciop_iob.v" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/rtl/uart_top.v" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/rtl/uart_writer.v" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/rtl/uart_reader.v" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/rtl/uart_mux.v" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/rtl/fake_boot_ctrl.v" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/rtl/bram_wrappers/bram_sdp_16384x512_wrapper.v" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/rtl/bram_wrappers/bram_sdp_8192x512_wrapper.v" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/rtl/bram_wrappers/bram_sdp_256x512_wrapper.v" \
+####     "${DV_ROOT}/design/chipset/mc/rtl/mc_top.v" \
+####     "${DV_ROOT}/design/chipset/mc/rtl/mig_mux.v" \
+####     "${DV_ROOT}/design/chipset/mc/rtl/pkt_trans_dp_wide.v" \
+####     "${DV_ROOT}/design/chipset/mc/rtl/mig_async_fifo.v" \
+####     "${DV_ROOT}/design/chipset/iosplitter_axi_lite/rtl/iosplitter_axi_lite.v" \
+####     "${DV_ROOT}/design/chipset/iosplitter_axi_lite/rtl/iosplitter_axi_lite_updated.v" \
+####     "${DV_ROOT}/design/chipset/noc_axilite_bridge/rtl/noc_axilite_bridge.v" \
+####     "${DV_ROOT}/design/chipset/noc_axilite_bridge/rtl/noc_axilite_bridge_boot.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/axi_sd_bridge.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/spi_master.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/init_sd.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/read_write_sd_block.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/rwspi_wire_data.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/sd_block_cache.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/sd_cache_defines.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/sd_wishbone_transaction_manager.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/send_cmd.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/sm_dp_mem_dc.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/sm_fifo_rtl.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/sm_rx_fifo.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/sm_rx_fifo_bi.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/sm_tx_fifo.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/sm_tx_fifo_bi.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/spi_control.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/spi_master_defines.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/spi_master_wishbone_decoder.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/spi_tx_rx_data.v" \
+####     "${DV_ROOT}/design/chipset/axi_sd_bridge/rtl/status_register_control.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/valrdy_to_credit.v" \
+####     "${DV_ROOT}/design/chip/tile/common/rtl/credit_to_valrdy.v" \
+####     "${DV_ROOT}/design/chip/tile/dynamic_node/common/rtl/network_input_blk_multi_out.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_decoder.v" \
+####     "${DV_ROOT}/design/chip/tile/l2/rtl/l2_encoder.v" \
+####     "${DV_ROOT}/design/common/rtl/chip_rst_seq.v" \
+####     "${DV_ROOT}/design/common/rtl/alarm_counter.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/Const.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/Counter.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/ParityGen.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/Register.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/Reverse.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/ShiftRegister.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/IORegister.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/UART.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/UAReceiver.v" \
+####     "${DV_ROOT}/design/common/uart/rtl/UATransmitter.v" \
+####     "${DV_ROOT}/design/chipset/oled/rtl/oled_delay.v" \
+####     "${DV_ROOT}/design/chipset/oled/rtl/oled_transform.v" \
+####     "${DV_ROOT}/design/chipset/oled/rtl/oled_wrapper.v" \
+####     "${DV_ROOT}/design/chipset/oled/rtl/ssd1306_ctrl.v" \
+####     "${DV_ROOT}/design/chipset/oled/rtl/ssd1306_init.v" \
+####     "${DV_ROOT}/design/chipset/oled/rtl/ssd1306_spi.v" \
+####     "${DV_ROOT}/design/chipset/oled/rtl/ssd1306_top.v" \
+#### ]
+#### set CHIPSET_INCLUDE_FILES [list \
+####     "${DV_ROOT}/design/chipset/include/mc_define.h" \
+####     "${DV_ROOT}/design/chipset/include/uart16550_define.vh" \
+####     "${DV_ROOT}/design/chipset/include/chipset_define.vh" \
+#### ]
+#### set CHIPSET_IP_FILE_PREFIXES [list \
+####     "${DV_ROOT}/design/chipset/xilinx/${BOARD}/ip_cores/clk_dcm/clk_dcm" \
+####     "${DV_ROOT}/design/chipset/xilinx/${BOARD}/ip_cores/clk_mmcm/clk_mmcm" \
+####     "${DV_ROOT}/design/chipset/xilinx/${BOARD}/ip_cores/afifo_mem_splitter/afifo_mem_splitter" \
+####     "${DV_ROOT}/design/chipset/xilinx/${BOARD}/ip_cores/afifo_splitter_mem/afifo_splitter_mem" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/xilinx/${BOARD}/ip_cores/atg_uart_init/atg_uart_init" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/xilinx/${BOARD}/ip_cores/uart_16550/uart_16550" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/xilinx/${BOARD}/ip_cores/uart_mig_afifo/uart_mig_afifo" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/xilinx/${BOARD}/ip_cores/mem_uart_done/mem_uart_done" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/xilinx/${BOARD}/ip_cores/mem_uart_timeout/mem_uart_timeout" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/xilinx/${BOARD}/ip_cores/bram_256x512/bram_256x512" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/xilinx/${BOARD}/ip_cores/bram_16384x512/bram_16384x512" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/xilinx/${BOARD}/ip_cores/bram_8192x512/bram_8192x512" \
+####     "${DV_ROOT}/design/chipset/mc/xilinx/${BOARD}/ip_cores/mig_7series_0/mig_7series_0" \
+####     "${DV_ROOT}/design/common/fpga_bridge/common/xilinx/${BOARD}/ip_cores/afifo_w64/afifo_w64" \
+####     "${DV_ROOT}/design/common/fpga_bridge/fpga_rcv/xilinx/${BOARD}/ip_cores/afifo_w3/afifo_w3" \
+#### ]
+#### set CHIPSET_COE_IP_FILES [list \
+####     "${DV_ROOT}/design/chipset/io_ctrl/xilinx/${BOARD}/ip_cores/atg_uart_init/uart_data.coe" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/xilinx/${BOARD}/ip_cores/atg_uart_init/uart_addr.coe" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/xilinx/common/ip_cores/bram_256x512/test_proto.coe" \
+####     "${DV_ROOT}/design/chipset/io_ctrl/xilinx/${BOARD}/ip_cores/bram_16384x512/obp.coe" \
+#### ]
+#### set CHIPSET_PRJ_IP_FILES [list \
+####     "${DV_ROOT}/design/chipset/mc/xilinx/${BOARD}/ip_cores/mig_7series_0/mig_a.prj" \
+#### ]
+### source $DESIGN_DIR/design.tcl
+#### set DESIGN_NAME "system"
+#### set DESIGN_INCLUDE_DIRS ""
+#### set DESIGN_DEFAULT_VERILOG_MACROS "PITON_FULL_SYSTEM FPGA_SYN_1THREAD PITON_FPGA_NO_DMBR"
+#### set DESIGN_RTL_IMPL_FILES [concat \
+####     ${SYSTEM_RTL_IMPL_FILES} \
+####     ${CHIP_RTL_IMPL_FILES} \
+####     ${PASSTHRU_RTL_IMPL_FILES} \
+####     ${CHIPSET_RTL_IMPL_FILES} \
+#### ]
+#### set DESIGN_INCLUDE_FILES [concat \
+####     ${SYSTEM_INCLUDE_FILES} \
+####     ${CHIP_INCLUDE_FILES} \
+####     ${PASSTHRU_INCLUDE_FILES} \
+####     ${CHIPSET_INCLUDE_FILES}
+#### ]
+#### set DESIGN_IP_FILE_PREFIXES [concat \
+####     ${SYSTEM_IP_FILE_PREFIXES} \
+####     ${CHIP_IP_FILE_PREFIXES} \
+####     ${PASSTHRU_IP_FILE_PREFIXES} \
+####     ${CHIPSET_IP_FILE_PREFIXES} \
+#### ]
+#### set DESIGN_COE_IP_FILES [concat \
+####     ${SYSTEM_COE_IP_FILES} \
+####     ${CHIP_COE_IP_FILES} \
+####     ${PASSTHRU_COE_IP_FILES} \
+####     ${CHIPSET_COE_IP_FILES} \
+#### ]
+#### set DESIGN_PRJ_IP_FILES [concat \
+####     ${SYSTEM_PRJ_IP_FILES} \
+####     ${CHIP_PRJ_IP_FILES} \
+####     ${PASSTHRU_PRJ_IP_FILES} \
+####     ${CHIPSET_PRJ_IP_FILES} \
+#### ]
+### source $DV_ROOT/tools/src/proto/${BOARD}/board.tcl
+#### set BOARD_PART "xilinx.com:vc707:part0:1.1"
+#### set FPGA_PART "xc7vx485tffg1761-2"
+#### set VIVADO_FLOW_PERF_OPT 1
+#### set BOARD_DEFAULT_VERILOG_MACROS "VC707_BOARD"
+### set PROJECT_NAME "${BOARD}_${DESIGN_NAME}"
+### set PROJECT_DIR [file normalize ./${PROJECT_NAME}]
+### set VIVADO_PROJECT_FILE "${PROJECT_DIR}/${PROJECT_NAME}.xpr"
+### set ISE_PROJECT_FILE "${PROJECT_DIR}/${PROJECT_NAME}.xise"
+### set ALL_INCLUDE_DIRS [concat ${GLOBAL_INCLUDE_DIRS} ${DESIGN_INCLUDE_DIRS}]
+### set ALL_DEFAULT_VERILOG_MACROS [concat \
+###     ${GLOBAL_DEFAULT_VERILOG_MACROS} \
+###     ${DESIGN_DEFAULT_VERILOG_MACROS} \
+###     ${BOARD_DEFAULT_VERILOG_MACROS} \
+### ]
+### puts "INFO: Using Defines: ${ALL_DEFAULT_VERILOG_MACROS}"
+INFO: Using Defines: NO_SCAN FPGA_SYN NO_USE_IBM_SRAMS PITON_FPGA_SYNTH PITON_PROTO PITON_FULL_SYSTEM FPGA_SYN_1THREAD PITON_FPGA_NO_DMBR VC707_BOARD
+### set ALL_RTL_IMPL_FILES [concat ${DESIGN_RTL_IMPL_FILES}]
+### set ALL_INCLUDE_FILES [concat ${GLOBAL_INCLUDE_FILES} ${DESIGN_INCLUDE_FILES}]
+### set ALL_IP_FILE_PREFIXES [concat ${DESIGN_IP_FILE_PREFIXES}]
+### set ALL_XCI_IP_FILES [list ]
+### foreach ip_file ${ALL_IP_FILE_PREFIXES} {
+###     lappend ALL_XCI_IP_FILES "${ip_file}.xci"
+### }
+### set ALL_XCO_IP_FILES [list ]
+### foreach ip_file ${ALL_IP_FILE_PREFIXES} {
+###         lappend ALL_XCO_IP_FILES "${ip_file}.xco"
+### }
+### set ALL_COE_FILES [concat ${DESIGN_COE_IP_FILES}]
+### set ALL_PRJ_IP_FILES [concat ${DESIGN_PRJ_IP_FILES}]
+### global ::env
+### if {[file exists $DESIGN_DIR/pyhp_setup.tcl]} {
+###     source $DESIGN_DIR/pyhp_setup.tcl
+### }
+#### set ::env(PTON_X_TILES) 1
+#### set ::env(PTON_Y_TILES) 1
+#### set ::env(PTON_NUM_TILES) 1
+#### set ::env(PTON_NETWORK_CONFIG) "2dmesh_config"
+#### set ::env(CONFIG_L15_SIZE) 8192
+#### set ::env(CONFIG_L15_ASSOCIATIVITY) 4
+#### set ::env(CONFIG_L1D_SIZE) 8192
+#### set ::env(CONFIG_L1D_ASSOCIATIVITY) 4
+#### set ::env(CONFIG_L1I_SIZE) 16384
+#### set ::env(CONFIG_L1I_ASSOCIATIVITY) 4
+#### set ::env(CONFIG_L2_SIZE) 65536
+#### set ::env(CONFIG_L2_ASSOCIATIVITY) 4
+### source $DV_ROOT/tools/src/proto/common/pyhp_preprocess.tcl
+#### proc pyhp_preprocess {RTL_IMPL_FILES} {
+####     set GEN_RTL_IMPL_FILES ""
+####     foreach RTL_IMPL_FILE ${RTL_IMPL_FILES} {
+####         set PYV_IMPL_FILE "${RTL_IMPL_FILE}.pyv"
+####         # File gets preprocessed if a PYV version exists
+####         if {[file exists ${PYV_IMPL_FILE}]} {
+####             puts "Info: ${PYV_IMPL_FILE} exists! Preprocessing..."
+####     
+####             # Setup temporary filename for preprocessed verilog
+####             set RTL_IMPL_FILENAME_LEN [string length ${RTL_IMPL_FILE}]
+####             set GEN_RTL_IMPL_FILE [string range ${RTL_IMPL_FILE} 0 [expr ${RTL_IMPL_FILENAME_LEN} - 2]]
+####             append GEN_RTL_IMPL_FILE "tmp."
+####             append GEN_RTL_IMPL_FILE [string index ${RTL_IMPL_FILE} [expr ${RTL_IMPL_FILENAME_LEN} - 1]]
+####     
+####             # Run PyHP
+####             exec pyhp.py ${PYV_IMPL_FILE} > ${GEN_RTL_IMPL_FILE}
+####     
+####             # Append to new source file list
+####             set GEN_RTL_IMPL_FILES "${GEN_RTL_IMPL_FILES} ${GEN_RTL_IMPL_FILE}"
+####         } else {
+####             # If no PYV version exists, this file does not get preprocessed
+####             set GEN_RTL_IMPL_FILES "${GEN_RTL_IMPL_FILES} ${RTL_IMPL_FILE}"
+####         }
+####     }
+#### 
+####     return ${GEN_RTL_IMPL_FILES}
+#### }
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/rtl/chip.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/dmbr/rtl/dmbr.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/rtl/tile.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/rtl/config_regs.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_priority_encoder.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_data_pgen.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_data_ecc.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_smc.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe2_dpath.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe2_ctrl.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe2_buf_in.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1_dpath.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1_ctrl.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1_buf_out.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1_buf_in.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_mshr.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_state.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/rf_l15_wmt.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/rf_l15_lruarray.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/rf_l15_mesi.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_mshr.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_csm.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/noc1buffer.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_priority_encoder.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_home_encoder.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_hmc.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/flat_id_to_xy.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_errdp.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_tagdp.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_qctl2.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_dctl.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_dcdp.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/sparc_tlu_penc64.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/sparc_tlu_dec64.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/bw_r_dtlb.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/bw_r_itlb.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/bw_r_ict.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/bw_r_dct.v.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/bw_r_dcd.v.pyv exists! Preprocessing...
+### set ALL_RTL_IMPL_FILES [pyhp_preprocess ${ALL_RTL_IMPL_FILES}]
+Info: /home/alessandro/Documents/openpiton/piton/design/include/l15.h.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/include/l2.h.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/include/ifu.h.pyv exists! Preprocessing...
+Info: /home/alessandro/Documents/openpiton/piton/design/include/lsu.h.pyv exists! Preprocessing...
+### set ALL_INCLUDE_FILES [pyhp_preprocess ${ALL_INCLUDE_FILES}]
+## set ALL_FILES [concat \
+##     $ALL_INCLUDE_FILES \
+##     $ALL_RTL_IMPL_FILES \
+##     $ALL_COE_FILES \
+##     $ALL_PRJ_IP_FILES \
+##     $ALL_XCI_IP_FILES \
+## ]
+# create_project -force ${PROJECT_NAME} ${PROJECT_DIR}
+# set proj [get_projects ${PROJECT_NAME}]
+# set_property "board_part" "${BOARD_PART}" $proj
+WARNING: [Project 1-153] The current project part 'xc7vx485tffg1157-1' does not match with the 'XILINX.COM:VC707:PART0:1.1' board part settings. The project part will be reset to 'XILINX.COM:VC707:PART0:1.1' board part.
+INFO: [Project 1-152] Project part set to virtex7 (xc7vx485tffg1761-2)
+# set_property "compxlib.activehdl_compiled_library_dir" "${PROJECT_DIR}/${PROJECT_NAME}.cache/compile_simlib/activehdl" $proj
+# set_property "compxlib.funcsim" "1" $proj
+# set_property "compxlib.ies_compiled_library_dir" "${PROJECT_DIR}/${PROJECT_NAME}.cache/compile_simlib/ies" $proj
+# set_property "compxlib.modelsim_compiled_library_dir" "${PROJECT_DIR}/${PROJECT_NAME}.cache/compile_simlib/modelsim" $proj
+# set_property "compxlib.overwrite_libs" "0" $proj
+# set_property "compxlib.questa_compiled_library_dir" "${PROJECT_DIR}/${PROJECT_NAME}.cache/compile_simlib/questa" $proj
+# set_property "compxlib.riviera_compiled_library_dir" "${PROJECT_DIR}/${PROJECT_NAME}.cache/compile_simlib/riviera" $proj
+# set_property "compxlib.timesim" "1" $proj
+# set_property "compxlib.vcs_compiled_library_dir" "${PROJECT_DIR}/${PROJECT_NAME}.cache/compile_simlib" $proj
+# set_property "corecontainer.enable" "0" $proj
+# set_property "default_lib" "xil_defaultlib" $proj
+# set_property "enable_optional_runs_sta" "0" $proj
+# set_property "ip_cache_permissions" "" $proj
+# set_property "ip_output_repo" "" $proj
+# set_property "managed_ip" "0" $proj
+# if {[string equal ${BOARD_PART} ""] != 0} {
+#     set_property "part" "${FPGA_PART}" $proj
+# }
+# set_property "sim.ip.auto_export_scripts" "1" $proj
+# set_property "simulator_language" "Mixed" $proj
+# set_property "source_mgmt_mode" "All" $proj
+# set_property "target_language" "Verilog" $proj
+# set_property "target_simulator" "VCS" $proj
+# if {[string equal [get_filesets -quiet sources_1] ""]} {
+#   create_fileset -srcset sources_1
+# }
+# set fileset_obj [get_filesets sources_1]
+# set files_to_add [list ]
+# foreach prj_file ${ALL_FILES} {
+#     if {[file exists $prj_file]} {
+#         lappend files_to_add $prj_file
+#     }
+# }
+# add_files -norecurse -fileset $fileset_obj $files_to_add
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.4/data/ip'.
+# foreach inc_file $ALL_INCLUDE_FILES {
+#     if {[file exists $inc_file]} {
+#         set file_obj [get_files -of_objects $fileset_obj [list "$inc_file"]]
+#         set_property "file_type" "Verilog Header" $file_obj
+#         set_property "is_enabled" "1" $file_obj
+#         set_property "is_global_include" "1" $file_obj
+#         set_property "library" "xil_defaultlib" $file_obj
+#         set_property "path_mode" "RelativeFirst" $file_obj
+#         set_property "used_in" "synthesis simulation" $file_obj
+#         set_property "used_in_simulation" "1" $file_obj
+#         set_property "used_in_synthesis" "1" $file_obj
+#     }
+# }
+# foreach impl_file $ALL_RTL_IMPL_FILES {
+#     if {[file exists $impl_file]} {
+#         set file_obj [get_files -of_objects $fileset_obj [list "$impl_file"]]
+#         set_property "file_type" "Verilog" $file_obj
+#         set_property "is_enabled" "1" $file_obj
+#         set_property "is_global_include" "0" $file_obj
+#         set_property "library" "xil_defaultlib" $file_obj
+#         set_property "path_mode" "RelativeFirst" $file_obj
+#         set_property "used_in" "synthesis implementation simulation" $file_obj
+#         set_property "used_in_implementation" "1" $file_obj
+#         set_property "used_in_simulation" "1" $file_obj
+#         set_property "used_in_synthesis" "1" $file_obj
+#     }
+# }
+# foreach coe_file $ALL_COE_FILES {
+#     if {[file exists $coe_file]} {
+#         set file_obj [get_files -of_objects $fileset_obj [list "$coe_file"]]
+#         set_property "is_enabled" "1" $file_obj
+#         set_property "is_global_include" "0" $file_obj
+#         set_property "library" "xil_defaultlib" $file_obj
+#         set_property "path_mode" "RelativeFirst" $file_obj
+#         set_property "scoped_to_cells" "" $file_obj
+#         set_property "scoped_to_ref" "" $file_obj
+#         set_property "used_in" "synthesis simulation" $file_obj
+#         set_property "used_in_simulation" "1" $file_obj
+#         set_property "used_in_synthesis" "1" $file_obj
+#     }
+# }
+# foreach prj_file $ALL_PRJ_IP_FILES {
+#     if {[file exists $prj_file]} {
+#         set file_obj [get_files -of_objects $fileset_obj [list "$prj_file"]]
+#         set_property "is_enabled" "1" $file_obj
+#         set_property "is_global_include" "0" $file_obj
+#         set_property "library" "xil_defaultlib" $file_obj
+#         set_property "path_mode" "RelativeFirst" $file_obj
+#         set_property "scoped_to_cells" "" $file_obj
+#         set_property "scoped_to_ref" "" $file_obj
+#         set_property "used_in" "synthesis" $file_obj
+#         set_property "used_in_synthesis" "1" $file_obj
+#     }
+# }
+# foreach xci_file $ALL_XCI_IP_FILES {
+#     if {[file exists $xci_file]} {
+#         set file_obj [get_files -of_objects $fileset_obj [list "$xci_file"]]
+#         if { ![get_property "is_locked" $file_obj] } {
+#           set_property "generate_synth_checkpoint" "1" $file_obj
+#         }
+#         set_property "is_enabled" "1" $file_obj
+#         set_property "is_global_include" "0" $file_obj
+#         set_property "library" "xil_defaultlib" $file_obj
+#         set_property "path_mode" "RelativeFirst" $file_obj
+#         set_property "used_in" "synthesis implementation simulation" $file_obj
+#         set_property "used_in_implementation" "1" $file_obj
+#         set_property "used_in_simulation" "1" $file_obj
+#         set_property "used_in_synthesis" "1" $file_obj
+#     }
+# }
+# set_property "design_mode" "RTL" $fileset_obj
+# set_property "edif_extra_search_paths" "" $fileset_obj
+# set_property "elab_link_dcps" "1" $fileset_obj
+# set_property "elab_load_timing_constraints" "1" $fileset_obj
+# set_property "generic" "" $fileset_obj
+# set_property "include_dirs" "${ALL_INCLUDE_DIRS}" $fileset_obj
+# set_property "lib_map_file" "" $fileset_obj
+# set_property "loop_count" "1000" $fileset_obj
+# set_property "name" "sources_1" $fileset_obj
+# set_property "top" "${DESIGN_NAME}" $fileset_obj
+# set_property "verilog_define" "${ALL_DEFAULT_VERILOG_MACROS}" $fileset_obj
+# set_property "verilog_uppercase" "0" $fileset_obj
+# if {[string equal [get_filesets -quiet constrs_1] ""]} {
+#   create_fileset -constrset constrs_1
+# }
+# set fileset_obj [get_filesets constrs_1]
+# set constraints_file "${BOARD_DIR}/constraints.xdc"
+# add_files -norecurse -fileset $fileset_obj $constraints_file
+# set file_obj [get_files -of_objects $fileset_obj [list "$constraints_file"]]
+# set_property "file_type" "XDC" $file_obj
+# set_property "is_enabled" "1" $file_obj
+# set_property "is_global_include" "0" $file_obj
+# set_property "library" "xil_defaultlib" $file_obj
+# set_property "path_mode" "RelativeFirst" $file_obj
+# set_property "processing_order" "NORMAL" $file_obj
+# set_property "scoped_to_cells" "" $file_obj
+# set_property "scoped_to_ref" "" $file_obj
+# set_property "used_in" "synthesis implementation" $file_obj
+# set_property "used_in_implementation" "1" $file_obj
+# set_property "used_in_synthesis" "1" $file_obj
+# set_property "name" "constrs_1" $fileset_obj
+# set_property "target_constrs_file" "$constraints_file" $fileset_obj
+# if {[string equal [get_filesets -quiet sim_1] ""]} {
+#   create_fileset -simset sim_1
+# }
+# set fileset_obj [get_filesets sim_1]
+# set_property "generic" "" $fileset_obj
+# set_property "include_dirs" "${ALL_INCLUDE_DIRS}" $fileset_obj
+# set_property "name" "sim_1" $fileset_obj
+# set_property "nl.cell" "" $fileset_obj
+# set_property "nl.incl_unisim_models" "0" $fileset_obj
+# set_property "nl.process_corner" "slow" $fileset_obj
+# set_property "nl.rename_top" "" $fileset_obj
+# set_property "nl.sdf_anno" "1" $fileset_obj
+# set_property "nl.write_all_overrides" "0" $fileset_obj
+# set_property "runtime" "" $fileset_obj
+# set_property "source_set" "sources_1" $fileset_obj
+# set_property "top" "${DESIGN_NAME}" $fileset_obj
+# set_property "unit_under_test" "" $fileset_obj
+# set_property "vcs.compile.load_glbl" "1" $fileset_obj
+# set_property "vcs.compile.vhdlan.more_options" "" $fileset_obj
+# set_property "vcs.compile.vlogan.more_options" -value "-v2005" -object $fileset_obj
+# set_property "vcs.elaborate.debug_pp" "1" $fileset_obj
+# set_property "vcs.elaborate.vcs.more_options" "" $fileset_obj
+# set_property "vcs.simulate.runtime" "1000ns" $fileset_obj
+# set_property "vcs.simulate.saif" "" $fileset_obj
+# set_property "vcs.simulate.uut" "" $fileset_obj
+WARNING: [Common 17-599] Property 'vcs.simulate.uut' is deprecated for object type 'fileset'. Use 'vcs.simulate.saif_scope'.
+# set_property "vcs.simulate.vcs.more_options" "" $fileset_obj
+# set_property "verilog_define" "${ALL_DEFAULT_VERILOG_MACROS}" $fileset_obj
+# set_property "verilog_uppercase" "0" $fileset_obj
+# if {[string equal [get_runs -quiet synth_1] ""]} {
+#   if {$VIVADO_FLOW_PERF_OPT} {
+#     create_run -name synth_1 -part ${FPGA_PART} -flow {Vivado Synthesis 2015} -strategy "Flow_PerfOptimized_high" -constrset constrs_1
+#   } else {
+#     create_run -name synth_1 -part ${FPGA_PART} -flow {Vivado Synthesis 2015} -strategy "Vivado Synthesis Defaults" -constrset constrs_1
+#   }
+# } else {
+#   if {$VIVADO_FLOW_PERF_OPT} {
+#     set_property strategy "Flow_PerfOptimized_high" [get_runs synth_1]  
+#   } else {
+#     set_property strategy "Vivado Synthesis Defaults" [get_runs synth_1]
+#   }
+#   set_property flow "Vivado Synthesis 2015" [get_runs synth_1]
+# }
+# set fileset_obj [get_runs synth_1]
+# set_property "constrset" "constrs_1" $fileset_obj
+# if {$VIVADO_FLOW_PERF_OPT} {
+#   set_property "description" "Higher performance designs, resource sharing is turned off, the global fanout guide is set to a lower number, FSM extraction forced to one-hot, LUT combining is disabled, equivalent registers are preserved, SRL are inferred  with a larger threshold" $fileset_obj
+# } else {
+#   set_property "description" "Vivado Synthesis Defaults" $fileset_obj
+# }
+# set_property "flow" "Vivado Synthesis 2015" $fileset_obj
+# set_property "name" "synth_1" $fileset_obj
+# set_property "needs_refresh" "0" $fileset_obj
+# set_property "part" "${FPGA_PART}" $fileset_obj
+# set_property "srcset" "sources_1" $fileset_obj
+# if {$VIVADO_FLOW_PERF_OPT} {
+#   set_property "strategy" "Flow_PerfOptimized_high" $fileset_obj
+# } else {
+#   set_property "strategy" "Vivado Synthesis Defaults" $fileset_obj
+# }
+# set_property "incremental_checkpoint" "" $fileset_obj
+# set_property "include_in_archive" "1" $fileset_obj
+# set_property "steps.synth_design.tcl.pre" "" $fileset_obj
+# set_property "steps.synth_design.tcl.post" "" $fileset_obj
+# set_property "steps.synth_design.args.flatten_hierarchy" "rebuilt" $fileset_obj
+# set_property "steps.synth_design.args.gated_clock_conversion" "off" $fileset_obj
+# set_property "steps.synth_design.args.bufg" "12" $fileset_obj
+# if {$VIVADO_FLOW_PERF_OPT} {
+#   set_property "steps.synth_design.args.fanout_limit" "400" $fileset_obj
+# } else {
+#   set_property "steps.synth_design.args.fanout_limit" "10000" $fileset_obj
+# }
+# set_property "steps.synth_design.args.directive" "Default" $fileset_obj
+# if {$VIVADO_FLOW_PERF_OPT} {
+#   set_property "steps.synth_design.args.fsm_extraction" "one_hot" $fileset_obj
+#   set_property "steps.synth_design.args.keep_equivalent_registers" "1" $fileset_obj
+#   set_property "steps.synth_design.args.resource_sharing" "off" $fileset_obj
+# } else {
+#   set_property "steps.synth_design.args.fsm_extraction" "auto" $fileset_obj
+#   set_property "steps.synth_design.args.keep_equivalent_registers" "0" $fileset_obj
+#   set_property "steps.synth_design.args.resource_sharing" "auto" $fileset_obj
+# }
+# set_property "steps.synth_design.args.control_set_opt_threshold" "auto" $fileset_obj
+# if {$VIVADO_FLOW_PERF_OPT} {
+#   set_property "steps.synth_design.args.no_lc" "1" $fileset_obj
+#   set_property "steps.synth_design.args.shreg_min_size" "5" $fileset_obj
+# } else {
+#   set_property "steps.synth_design.args.no_lc" "0" $fileset_obj
+#   set_property "steps.synth_design.args.shreg_min_size" "3" $fileset_obj
+# }
+# set_property "steps.synth_design.args.max_bram" "-1" $fileset_obj
+# set_property "steps.synth_design.args.max_dsp" "-1" $fileset_obj
+# set_property "steps.synth_design.args.cascade_dsp" "auto" $fileset_obj
+# set_property -name {steps.synth_design.args.more options} -value {} -objects $fileset_obj
+# current_run -synthesis $fileset_obj
+# if {[string equal [get_runs -quiet impl_1] ""]} {
+#   if {$VIVADO_FLOW_PERF_OPT} {
+#     create_run -name impl_1 -part ${FPGA_PART} -flow {Vivado Implementation 2015} -strategy "Performance_Explore" -constrset constrs_1 -parent_run synth_1
+#   } else {
+#     create_run -name impl_1 -part ${FPGA_PART} -flow {Vivado Implementation 2015} -strategy "Vivado Implementation Defaults" -constrset constrs_1 -parent_run synth_1
+#   }
+# } else {
+#   if {$VIVADO_FLOW_PERF_OPT} {
+#     set_property strategy "Performance_Explore" [get_runs impl_1]
+#   } else {
+#     set_property strategy "Vivado Implementation Defaults" [get_runs impl_1]
+#   }
+#   set_property flow "Vivado Implementation 2015" [get_runs impl_1]
+# }
+# set fileset_obj [get_runs impl_1]
+# set_property "constrset" "constrs_1" $fileset_obj
+# if {$VIVADO_FLOW_PERF_OPT} {
+#   set_property "description" "Uses multiple algorithms for optimization, placement, and routing to get potentially better results." $fileset_obj
+# } else {
+#   set_property "description" "Vivado Implementation Defaults" $fileset_obj
+# }
+# set_property "flow" "Vivado Implementation 2015" $fileset_obj
+# set_property "name" "impl_1" $fileset_obj
+# set_property "needs_refresh" "0" $fileset_obj
+# if {[string equal ${BOARD_PART} ""] != 0} {
+#   set_property "part" "${FPGA_PART}" $fileset_obj
+# }
+# set_property "srcset" "sources_1" $fileset_obj
+# if {$VIVADO_FLOW_PERF_OPT} {
+#   set_property "strategy" "Performance_Explore" $fileset_obj
+# } else {
+#   set_property "strategy" "Vivado Implementation Defaults" $fileset_obj
+# }
+# set_property "incremental_checkpoint" "" $fileset_obj
+# set_property "include_in_archive" "1" $fileset_obj
+# set_property "steps.opt_design.is_enabled" "1" $fileset_obj
+# set_property "steps.opt_design.tcl.pre" "" $fileset_obj
+# set_property "steps.opt_design.tcl.post" "" $fileset_obj
+# set_property "steps.opt_design.args.verbose" "0" $fileset_obj
+# if {$VIVADO_FLOW_PERF_OPT} {
+#   set_property "steps.opt_design.args.directive" "Explore" $fileset_obj
+# } else {
+#   set_property "steps.opt_design.args.directive" "Default" $fileset_obj
+# }
+# set_property -name {steps.opt_design.args.more options} -value {} -objects $fileset_obj
+# set_property "steps.power_opt_design.is_enabled" "0" $fileset_obj
+# set_property "steps.power_opt_design.tcl.pre" "" $fileset_obj
+# set_property "steps.power_opt_design.tcl.post" "" $fileset_obj
+# set_property -name {steps.power_opt_design.args.more options} -value {} -objects $fileset_obj
+# set_property "steps.place_design.tcl.pre" "" $fileset_obj
+# set_property "steps.place_design.tcl.post" "" $fileset_obj
+# if {$VIVADO_FLOW_PERF_OPT} {
+#   set_property "steps.place_design.args.directive" "Explore" $fileset_obj
+# } else {
+#   set_property "steps.place_design.args.directive" "Default" $fileset_obj
+# }
+# set_property -name {steps.place_design.args.more options} -value {} -objects $fileset_obj
+# set_property "steps.post_place_power_opt_design.is_enabled" "0" $fileset_obj
+# set_property "steps.post_place_power_opt_design.tcl.pre" "" $fileset_obj
+# set_property "steps.post_place_power_opt_design.tcl.post" "" $fileset_obj
+# set_property -name {steps.post_place_power_opt_design.args.more options} -value {} -objects $fileset_obj
+# set_property "steps.phys_opt_design.is_enabled" "0" $fileset_obj
+# set_property "steps.phys_opt_design.tcl.pre" "" $fileset_obj
+# set_property "steps.phys_opt_design.tcl.post" "" $fileset_obj
+# if {$VIVADO_FLOW_PERF_OPT} {
+#   set_property "steps.phys_opt_design.args.directive" "Explore" $fileset_obj
+# } else {
+#   set_property "steps.phys_opt_design.args.directive" "Default" $fileset_obj
+# }
+# set_property -name {steps.phys_opt_design.args.more options} -value {} -objects $fileset_obj
+# set_property "steps.route_design.tcl.pre" "" $fileset_obj
+# set_property "steps.route_design.tcl.post" "" $fileset_obj
+# if {$VIVADO_FLOW_PERF_OPT} {
+#  set_property "steps.route_design.args.directive" "Explore" $fileset_obj
+# } else {
+#  set_property "steps.route_design.args.directive" "Default" $fileset_obj
+# }
+# set_property -name {steps.route_design.args.more options} -value {} -objects $fileset_obj
+# set_property "steps.post_route_phys_opt_design.is_enabled" "0" $fileset_obj
+# set_property "steps.post_route_phys_opt_design.tcl.pre" "" $fileset_obj
+# set_property "steps.post_route_phys_opt_design.tcl.post" "" $fileset_obj
+# set_property "steps.post_route_phys_opt_design.args.directive" "Default" $fileset_obj
+# set_property -name {steps.post_route_phys_opt_design.args.more options} -value {} -objects $fileset_obj
+# set_property "steps.write_bitstream.tcl.pre" "" $fileset_obj
+# set_property "steps.write_bitstream.tcl.post" "" $fileset_obj
+# set_property "steps.write_bitstream.args.raw_bitfile" "0" $fileset_obj
+# set_property "steps.write_bitstream.args.mask_file" "0" $fileset_obj
+# set_property "steps.write_bitstream.args.no_binary_bitfile" "0" $fileset_obj
+# set_property "steps.write_bitstream.args.bin_file" "0" $fileset_obj
+# set_property "steps.write_bitstream.args.readback_file" "0" $fileset_obj
+# set_property "steps.write_bitstream.args.logic_location_file" "0" $fileset_obj
+# set_property "steps.write_bitstream.args.verbose" "0" $fileset_obj
+# set_property -name {steps.write_bitstream.args.more options} -value {} -objects $fileset_obj
+# current_run -implementation $fileset_obj
+# puts "INFO: Project created:${PROJECT_NAME}"
+INFO: Project created:vc707_system
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 28 14:07:52 2017...

@@ -1,0 +1,129 @@
+MIG: 17:30:38 : ################# RUNNING MIG BATCH ###################
+MIG: 17:30:38 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2016.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0
+MIG: 17:30:38 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:30:38 : outputDirectory: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 17:30:38 : vivado_mode: xpg_pa
+MIG: 17:30:38 :  locked false  
+MIG: 17:30:38 : HDL Language: Verilog
+MIG: 17:30:38 : compInfo: false
+MIG: 17:30:38 : Vivado Options xc7vx485t ffg1761 -2
+MIG: 17:30:38 : 1: xc7vx485t 2: ffg1761 3: -2
+MIG: 17:30:38 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 17:30:38 : xilinx_path: /opt/Xilinx/Vivado/2016.4/ids_lite/ISE
+MIG: 17:30:38 : I am in catch area
+MIG: 17:30:38 : Running /opt/Xilinx/Vivado/2016.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 17:30:51 : XML_INPUT_FILE: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 17:30:51 : Component_Name: mig_7series_0
+MIG: 17:30:51 : Moving mig_7series_0.veo ...
+MIG: 17:30:51 : Moving mig_7series_0 ...
+MIG: 17:30:51 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 17:30:51 : Running synthesis.xit
+MIG: 17:30:51 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:30:51 : ERR:     <Version>2.3</Version> <==>     <Version>4.0</Version> 
+MIG: 17:30:51 : ################# RUNNING MIG BATCH ###################
+MIG: 17:30:51 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2016.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0
+MIG: 17:30:51 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:30:51 : outputDirectory: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 17:30:51 : vivado_mode: xpg_pa
+MIG: 17:30:51 :  locked false  
+MIG: 17:30:51 : HDL Language: Verilog
+MIG: 17:30:51 : compInfo: false
+MIG: 17:30:51 : Vivado Options xc7vx485t ffg1761 -2
+MIG: 17:30:51 : 1: xc7vx485t 2: ffg1761 3: -2
+MIG: 17:30:51 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 17:30:51 : xilinx_path: /opt/Xilinx/Vivado/2016.4/ids_lite/ISE
+MIG: 17:30:51 : I am in catch area
+MIG: 17:30:51 : Running /opt/Xilinx/Vivado/2016.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 17:31:03 : XML_INPUT_FILE: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 17:31:03 : Component_Name: mig_7series_0
+MIG: 17:31:03 : Moving mig_7series_0.veo ...
+MIG: 17:31:03 : Moving mig_7series_0 ...
+MIG: 17:31:03 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 17:31:03 : Running vlog_synth_rpr.xit
+MIG: 17:31:03 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:31:03 : ERR:     <Version>2.3</Version> <==>     <Version>4.0</Version> 
+MIG: 17:31:03 : ################# RUNNING MIG BATCH ###################
+MIG: 17:31:03 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2016.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0
+MIG: 17:31:03 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:31:03 : outputDirectory: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 17:31:03 : vivado_mode: xpg_pa
+MIG: 17:31:03 :  locked false  
+MIG: 17:31:03 : HDL Language: Verilog
+MIG: 17:31:03 : compInfo: false
+MIG: 17:31:03 : Vivado Options xc7vx485t ffg1761 -2
+MIG: 17:31:03 : 1: xc7vx485t 2: ffg1761 3: -2
+MIG: 17:31:03 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 17:31:03 : xilinx_path: /opt/Xilinx/Vivado/2016.4/ids_lite/ISE
+MIG: 17:31:03 : I am in catch area
+MIG: 17:31:03 : Running /opt/Xilinx/Vivado/2016.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 17:31:15 : XML_INPUT_FILE: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 17:31:15 : Component_Name: mig_7series_0
+MIG: 17:31:15 : Moving mig_7series_0.veo ...
+MIG: 17:31:15 : Moving mig_7series_0 ...
+MIG: 17:31:15 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 17:31:16 : Running simulation.xit
+MIG: 17:31:16 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:31:16 : ERR:     <Version>2.3</Version> <==>     <Version>4.0</Version> 
+MIG: 17:31:16 : ################# RUNNING MIG BATCH ###################
+MIG: 17:31:16 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2016.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0
+MIG: 17:31:16 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:31:16 : outputDirectory: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 17:31:16 : vivado_mode: xpg_pa
+MIG: 17:31:16 :  locked false  
+MIG: 17:31:16 : HDL Language: Verilog
+MIG: 17:31:16 : compInfo: false
+MIG: 17:31:16 : Vivado Options xc7vx485t ffg1761 -2
+MIG: 17:31:16 : 1: xc7vx485t 2: ffg1761 3: -2
+MIG: 17:31:16 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 17:31:16 : xilinx_path: /opt/Xilinx/Vivado/2016.4/ids_lite/ISE
+MIG: 17:31:16 : I am in catch area
+MIG: 17:31:16 : Running /opt/Xilinx/Vivado/2016.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 17:31:28 : XML_INPUT_FILE: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 17:31:28 : Component_Name: mig_7series_0
+MIG: 17:31:28 : Moving mig_7series_0.veo ...
+MIG: 17:31:28 : Moving mig_7series_0 ...
+MIG: 17:31:28 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 17:31:28 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 17:31:28 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:31:28 : ERR:     <Version>2.3</Version> <==>     <Version>4.0</Version> 
+MIG: 17:31:28 : ################# RUNNING MIG BATCH ###################
+MIG: 17:31:28 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2016.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0
+MIG: 17:31:28 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:31:28 : outputDirectory: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 17:31:28 : vivado_mode: xpg_pa
+MIG: 17:31:28 :  locked false  
+MIG: 17:31:28 : HDL Language: Verilog
+MIG: 17:31:28 : compInfo: false
+MIG: 17:31:28 : Vivado Options xc7vx485t ffg1761 -2
+MIG: 17:31:28 : 1: xc7vx485t 2: ffg1761 3: -2
+MIG: 17:31:28 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 17:31:28 : xilinx_path: /opt/Xilinx/Vivado/2016.4/ids_lite/ISE
+MIG: 17:31:28 : I am in catch area
+MIG: 17:31:28 : Running /opt/Xilinx/Vivado/2016.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 17:31:40 : XML_INPUT_FILE: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 17:31:40 : Component_Name: mig_7series_0
+MIG: 17:31:40 : Moving mig_7series_0.veo ...
+MIG: 17:31:40 : Moving mig_7series_0 ...
+MIG: 17:31:40 : Moving mig_7series_0_xmdf.tcl ...
+MIG: 17:31:40 : Running implementation.xit
+MIG: 17:31:40 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 17:31:40 : ERR:     <Version>2.3</Version> <==>     <Version>4.0</Version> 
+MIG: 17:31:40 : ################# RUNNING MIG BATCH ###################
+MIG: 17:31:40 : Writing IN file for 'mig_7series_0'...compDirPath: /opt/Xilinx/Vivado/2016.4/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0
+MIG: 17:31:40 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:31:40 : outputDirectory: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/_tmp/
+MIG: 17:31:40 : vivado_mode: xpg_pa
+MIG: 17:31:40 :  locked false  
+MIG: 17:31:40 : HDL Language: Verilog
+MIG: 17:31:40 : compInfo: false
+MIG: 17:31:40 : Vivado Options xc7vx485t ffg1761 -2
+MIG: 17:31:40 : 1: xc7vx485t 2: ffg1761 3: -2
+MIG: 17:31:40 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 17:31:40 : xilinx_path: /opt/Xilinx/Vivado/2016.4/ids_lite/ISE
+MIG: 17:31:40 : I am in catch area
+MIG: 17:31:40 : Running /opt/Xilinx/Vivado/2016.4/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/xil_txt.in -cg_exc_out /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/xil_txt.out ... 
+MIG: 17:31:52 : XML_INPUT_FILE: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sources_1/ip/mig_7series_0/mig_a.prj
+MIG: 17:31:52 : Component_Name: mig_7series_0
+MIG: 17:31:52 : Moving mig_7series_0.veo ...
+MIG: 17:31:52 : Moving mig_7series_0 ...
+MIG: 17:31:52 : Moving mig_7series_0_xmdf.tcl ...

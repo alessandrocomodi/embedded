@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Feb 28 14:09:30 2017
+# Process ID: 22294
+# Current directory: /home/alessandro/Documents/embedded_prj/vc707/system
+# Command line: vivado
+# Log file: /home/alessandro/Documents/embedded_prj/vc707/system/vivado.log
+# Journal file: /home/alessandro/Documents/embedded_prj/vc707/system/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 5940.664 ; gain = 132.527 ; free physical = 4099 ; free virtual = 13734
+add_files -norecurse {/home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/afifo_w3_d16/afifo_w3_d16.xci /home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/fifo_w3_d16/fifo_w3_d16.xci /home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/afifo_w64_d16/afifo_w64_d16.xci /home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/fifo_w64_d16/fifo_w64_d16.xci}
+export_ip_user_files -of_objects  [get_files  {/home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/afifo_w3_d16/afifo_w3_d16.xci /home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/fifo_w3_d16/fifo_w3_d16.xci /home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/afifo_w64_d16/afifo_w64_d16.xci /home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/fifo_w64_d16/fifo_w64_d16.xci}] -lib_map_path [list {modelsim=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib/modelsim} {questa=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib/questa} {ies=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib/ies} {vcs=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib} {riviera=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib/riviera}] -force -quiet
+add_files -norecurse {/home/alessandro/Documents/openpiton/piton/design/common/fpga_bridge/fpga_rcv/xilinx/genesys2/ip_cores/afifo_w3/afifo_w3.xci /home/alessandro/Documents/openpiton/piton/design/common/fpga_bridge/common/xilinx/genesys2/ip_cores/afifo_w64/afifo_w64.xci}
+export_ip_user_files -of_objects  [get_files  {/home/alessandro/Documents/openpiton/piton/design/common/fpga_bridge/fpga_rcv/xilinx/genesys2/ip_cores/afifo_w3/afifo_w3.xci /home/alessandro/Documents/openpiton/piton/design/common/fpga_bridge/common/xilinx/genesys2/ip_cores/afifo_w64/afifo_w64.xci}] -lib_map_path [list {modelsim=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib/modelsim} {questa=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib/questa} {ies=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib/ies} {vcs=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib} {riviera=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib/riviera}] -force -quiet
+add_files -norecurse /home/alessandro/Documents/openpiton/piton/tools/src/proto/deprecated/vc707/ip_cores/virtex7_bram_8192x512/virtex7_bram_8192x512.xci
+WARNING: [IP_Flow 19-2162] IP 'virtex7_bram_8192x512' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 'virtex7_bram_8192x512' (customized with software release 2015.4) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+export_ip_user_files -of_objects  [get_files  /home/alessandro/Documents/openpiton/piton/tools/src/proto/deprecated/vc707/ip_cores/virtex7_bram_8192x512/virtex7_bram_8192x512.xci] -lib_map_path [list {modelsim=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib/modelsim} {questa=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib/questa} {ies=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib/ies} {vcs=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib} {riviera=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib/riviera}] -force -quiet
+upgrade_ip [get_ips -all]
+WARNING: [Coretcl 2-1044] No upgrade is available for 'afifo_mem_splitter'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'afifo_splitter_mem'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'afifo_w3'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'afifo_w3_d16'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'afifo_w64'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'afifo_w64_d16'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'atg_uart_init'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_1024x64'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_128x108'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_128x160'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_128x80'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_16384x512'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_2048x144'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_256x104'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_256x512'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_2p_128x176'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_2p_256x176'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_4096x144'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_512x128'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_512x32'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'bram_512x64'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'clk_mmcm'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'fifo_w3_d16'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'fifo_w64_d16'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'mem_uart_done'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'mig_7series_0'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'uart_16550'
+WARNING: [Coretcl 2-1044] No upgrade is available for 'uart_mig_afifo'
+Upgrading 'virtex7_bram_8192x512'
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [IP_Flow 19-3422] Upgraded virtex7_bram_8192x512 (Block Memory Generator 8.3) from revision 1 to revision 5
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'virtex7_bram_8192x512'...
+upgrade_ip: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 6237.594 ; gain = 240.535 ; free physical = 3760 ; free virtual = 13404
+/home/alessandro/Documents/openpiton/piton/tools/src/proto/deprecated/vc707/ip_cores/virtex7_bram_8192x512/virtex7_bram_8192x512.xci
+launch_runs synth_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/xilinx/vc707/ip_cores/bram_128x80/bram_128x80.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/xilinx/vc707/ip_cores/bram_256x104/bram_256x104.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/xilinx/vc707/ip_cores/bram_1024x64/bram_1024x64.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/xilinx/vc707/ip_cores/bram_4096x144/bram_4096x144.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/xilinx/vc707/ip_cores/bram_2p_256x176/bram_2p_256x176.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/xilinx/vc707/ip_cores/bram_512x32/bram_512x32.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/xilinx/vc707/ip_cores/bram_512x128/bram_512x128.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/chip/tile/common/xilinx/vc707/ip_cores/bram_128x160/bram_128x160.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/afifo_w3_d16/afifo_w3_d16.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/fifo_w3_d16/fifo_w3_d16.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/afifo_w64_d16/afifo_w64_d16.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/fifo_w64_d16/fifo_w64_d16.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/common/fpga_bridge/fpga_rcv/xilinx/genesys2/ip_cores/afifo_w3/afifo_w3.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/common/fpga_bridge/common/xilinx/genesys2/ip_cores/afifo_w64/afifo_w64.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/home/alessandro/Documents/openpiton/piton/design/chipset/xilinx/vc707/ip_cores/clk_mmcm/clk_mmcm.xci' is already up-to-date
+[Tue Feb 28 14:18:44 2017] Launched synth_1...
+Run output will be captured here: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/synth_1/runme.log
+import_files
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 28 14:38:26 2017...
