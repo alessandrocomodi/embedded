@@ -1,0 +1,1 @@
+vopt -64 +acc -l elaborate.log -L xil_defaultlib -L xpm -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.virtex7_bram_8192x512 xil_defaultlib.glbl -o virtex7_bram_8192x512_opt

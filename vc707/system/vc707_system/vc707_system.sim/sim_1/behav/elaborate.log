@@ -1,0 +1,22 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.4/bin/unwrapped/lnx64.o/xelab -wto 5fc79ec0066249cc8071557930a3eff0 --debug typical --relax --mt 8 -d NO_SCAN= -d FPGA_SYN= -d NO_USE_IBM_SRAMS= -d PITON_FPGA_SYNTH= -d PITON_PROTO= -d FPGA_SYN_1THREAD= -d PITON_FPGA_NO_DMBR= -d VC707_BOARD= -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot uart_serializer_top_behav xil_defaultlib.uart_serializer_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.test_infrstrct_fifo(BIT_WIDTH=24...
+Compiling module xil_defaultlib.test_source(BIT_WIDTH=240,ENTRIE...
+Compiling module xil_defaultlib.uart_serializer
+Compiling module xil_defaultlib.test_infrstrct_fifo(BIT_WIDTH=8)
+Compiling module xil_defaultlib.test_sink(BIT_WIDTH=8,ENTRIES=10...
+Compiling module xil_defaultlib.uart_serializer_top_helper
+Compiling module xil_defaultlib.uart_serializer_top
+WARNING: [XSIM 43-3373] "/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sim_1/imports/uart_serializer/uart_serializer_top.v" Line 138. System function $value$plusargs is used as system task. This system function should have a LHS e.g. x=$value$plusargs().
+WARNING: [XSIM 43-3373] "/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sim_1/imports/uart_serializer/uart_serializer_top.v" Line 146. System function $value$plusargs is used as system task. This system function should have a LHS e.g. x=$value$plusargs().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_serializer_top_behav

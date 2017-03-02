@@ -1,0 +1,5 @@
+verilog xil_defaultlib "../../../../../../../../openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/fifo_w3_d16/fifo_w3_d16_sim_netlist.v" 
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
