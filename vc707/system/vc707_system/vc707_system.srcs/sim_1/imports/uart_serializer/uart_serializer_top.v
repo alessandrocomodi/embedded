@@ -155,8 +155,8 @@ module uart_serializer_top;
     `TEST_CASE_BEGIN(1, test_case)
     begin
         // Read in source and sink bits from a file
-        $readmemh({test_cases_path, "test_src.vmh"}, helper.src.m_f);
-        $readmemh({test_cases_path, "test_sink.vmh"}, helper.sink.m_f); 
+        $readmemh({test_cases_path, test_case, "_src.vmh"}, helper.src.m_f);
+        $readmemh({test_cases_path, test_case, "_sink.vmh"}, helper.sink.m_f); 
 
         // Apply reset signal
         `TEST_CASE_RESET

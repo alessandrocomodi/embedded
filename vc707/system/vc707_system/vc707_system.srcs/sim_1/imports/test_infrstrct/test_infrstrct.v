@@ -37,8 +37,7 @@
     initial                                                                         \
     begin                                                                           \
         $display ("");                                                              \
-        $display (" Entering Test Suite: %s", name);  
-        //test_cases_path = "/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sim_1/imports/uart_serializer"                              \
+        $display (" Entering Test Suite: %s", name);                                \
         $value$plusargs("test_cases_path=%s", test_cases_path);                     \
     end                                                                             \
                                                                                     \
