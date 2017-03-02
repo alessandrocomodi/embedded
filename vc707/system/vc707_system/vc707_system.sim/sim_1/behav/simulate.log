@@ -1,9 +1,0 @@
-Vivado Simulator 2016.4
-Time resolution is 1 ps
-
- Entering Test Suite: uart_serializer
- + Running Test Case:                                                                 
-WARNING: File test_src.vmh referenced on /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sim_1/imports/uart_serializer/uart_serializer_top.v at line 158 cannot be opened for reading. Please ensure that this file is available in the current working directory.
-WARNING: File test_sink.vmh referenced on /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sim_1/imports/uart_serializer/uart_serializer_top.v at line 159 cannot be opened for reading. Please ensure that this file is available in the current working directory.
-
-$finish called at time : 1015500 ns : File "/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sim_1/imports/uart_serializer/uart_serializer_top.v" Line 176
