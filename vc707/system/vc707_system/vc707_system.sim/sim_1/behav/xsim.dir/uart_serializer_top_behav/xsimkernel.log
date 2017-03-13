@@ -1,7 +1,7 @@
-Running: xsim.dir/uart_serializer_top_behav/xsimk -simmode gui -wdb uart_serializer_top_behav.wdb -simrunnum 0 -socket 44151
+Running: xsim.dir/uart_serializer_top_behav/xsimk -simmode gui -testplusarg test_cases_path=/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sim_1/imports/uart_serializer/ -testplusarg test_case=test -wdb uart_serializer_top_behav.wdb -simrunnum 0 -socket 50383
 Design successfully loaded
-Design Loading Memory Usage: 49656 KB (Peak: 49724 KB)
-Design Loading CPU Usage: 0 ms
+Design Loading Memory Usage: 49656 KB (Peak: 49728 KB)
+Design Loading CPU Usage: 10 ms
 Simulation completed
 Simulation Memory Usage: 131392 KB (Peak: 196928 KB)
-Simulation CPU Usage: 0 ms
+Simulation CPU Usage: 60 ms

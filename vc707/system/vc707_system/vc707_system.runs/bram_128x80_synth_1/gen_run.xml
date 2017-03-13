@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="bram_128x80_synth_1" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1489072513">
+  <File Type="VDS-TIMING-PB" Name="bram_128x80_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="bram_128x80_timing_summary_synth.rpt"/>
+  <File Type="RDS-RDS" Name="bram_128x80.vds"/>
+  <File Type="PA-TCL" Name="bram_128x80.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="bram_128x80_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="bram_128x80_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="bram_128x80_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="bram_128x80.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bram_128x80">
+    <File Path="$PSRCDIR/sources_1/ip/bram_128x80/bram_128x80.xci">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/sparc/srams/xilinx/vc707/ip_cores/bram_128x80/bram_128x80.xci"/>
+        <Attr Name="ImportTime" Val="1488275914"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="bram_128x80"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bram_128x80">
+    <File Path="$PSRCDIR/sources_1/ip/bram_128x80/bram_128x80.xci">
+      <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/sparc/srams/xilinx/vc707/ip_cores/bram_128x80/bram_128x80.xci"/>
+        <Attr Name="ImportTime" Val="1488275914"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="bram_128x80"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

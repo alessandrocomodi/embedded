@@ -84,7 +84,7 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "/home/alessandro/Documents/embedded
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sim_1/imports/uart_serializer/uart_serializer_top.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module uart_serializer_top_helper
 INFO: [VRFC 10-311] analyzing module uart_serializer_top
-WARNING: [VRFC 10-535] constant expression cannot contain a hierarchical identifier [/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sim_1/imports/uart_serializer/uart_serializer_top.v:169]
-WARNING: [VRFC 10-535] constant expression cannot contain a hierarchical identifier [/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sim_1/imports/uart_serializer/uart_serializer_top.v:171]
+WARNING: [VRFC 10-535] constant expression cannot contain a hierarchical identifier [/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sim_1/imports/uart_serializer/uart_serializer_top.v:172]
+WARNING: [VRFC 10-535] constant expression cannot contain a hierarchical identifier [/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.srcs/sim_1/imports/uart_serializer/uart_serializer_top.v:174]
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.sim/sim_1/behav/glbl.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module glbl

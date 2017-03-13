@@ -61,13 +61,14 @@
 `define TEST_CASE_BEGIN(num, name)                                                  \
     always @ *                                                                      \
     begin                                                                           \
+        $display("Test Beginning");                                                 \
         if (test_case_num == num)                                                   \
         begin                                                                       \
             $display (" + Running Test Case: %s", name);
 
 `define TEST_CASE_RESET                                                             \
     #500  rst_n = 1'b0;                                                             \
-    #2500 rst_n = 1'b1;                                                               
+    #2500 rst_n = 1'b1;                                                       
 
 `define TEST_CASE_END                                                               \
             test_case_num = test_case_num + 1;                                      \
@@ -77,11 +78,11 @@
 `define TEST_CHECK(name, boolean, verbosity)                                        \
     if (boolean)                                                                    \
     begin                                                                           \
-        if (verbosity)                                                              \
-        begin                                                                       \
+//        if (verbosity)                                                              \
+//        begin                                                                       \
             $display ("        [PASSED] Test (%s) succeeded ", name);               \
             $display ("Simulation -> PASS (HIT GOOD TRAP)");                        \
-        end                                                                         \
+//        end                                                                         \
     end                                                                             \
     else                                                                            \
         $display ("        [FAILED] Test (%s) failed", name);

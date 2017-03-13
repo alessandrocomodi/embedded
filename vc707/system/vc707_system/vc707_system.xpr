@@ -16,6 +16,7 @@
     <Option Name="CompiledLibDirVCS" Val="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.cache/compile_simlib"/>
     <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
     <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="SimulatorLanguage" Val="Verilog"/>
     <Option Name="BoardPart" Val="xilinx.com:vc707:part0:1.1"/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
@@ -29,20 +30,20 @@
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSABoardId" Val="vc707"/>
     <Option Name="DSANumComputeUnits" Val="16"/>
-    <Option Name="WTXSimLaunchSim" Val="19"/>
+    <Option Name="WTXSimLaunchSim" Val="31"/>
     <Option Name="WTModelSimLaunchSim" Val="1"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
     <Option Name="WTVcsLaunchSim" Val="1"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="7"/>
-    <Option Name="WTModelSimExportSim" Val="7"/>
-    <Option Name="WTQuestaExportSim" Val="7"/>
-    <Option Name="WTIesExportSim" Val="7"/>
-    <Option Name="WTVcsExportSim" Val="7"/>
-    <Option Name="WTRivieraExportSim" Val="7"/>
-    <Option Name="WTActivehdlExportSim" Val="7"/>
+    <Option Name="WTXSimExportSim" Val="8"/>
+    <Option Name="WTModelSimExportSim" Val="8"/>
+    <Option Name="WTQuestaExportSim" Val="8"/>
+    <Option Name="WTIesExportSim" Val="8"/>
+    <Option Name="WTVcsExportSim" Val="8"/>
+    <Option Name="WTRivieraExportSim" Val="8"/>
+    <Option Name="WTActivehdlExportSim" Val="8"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
     <Option Name="XSimTimeUnit" Val="ns"/>
@@ -255,16 +256,6 @@
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_counter.v"/>
           <Attr Name="ImportTime" Val="1460434679"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/bram_128x80/bram_128x80.xci">
-        <FileInfo>
-          <Attr Name="Library" Val="xil_defaultlib"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/sparc/srams/xilinx/vc707/ip_cores/bram_128x80/bram_128x80.xci"/>
-          <Attr Name="ImportTime" Val="1488275914"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1005,36 +996,6 @@
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/sparc/srams/rtl/sram_wrappers/sram_1rw_128x78.v.xlx.v"/>
           <Attr Name="ImportTime" Val="1461089376"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/bram_256x104/bram_256x104.xci">
-        <FileInfo>
-          <Attr Name="Library" Val="xil_defaultlib"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/l2/xilinx/vc707/ip_cores/bram_256x104/bram_256x104.xci"/>
-          <Attr Name="ImportTime" Val="1488275928"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/bram_1024x64/bram_1024x64.xci">
-        <FileInfo>
-          <Attr Name="Library" Val="xil_defaultlib"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/l2/xilinx/vc707/ip_cores/bram_1024x64/bram_1024x64.xci"/>
-          <Attr Name="ImportTime" Val="1488275907"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/bram_4096x144/bram_4096x144.xci">
-        <FileInfo>
-          <Attr Name="Library" Val="xil_defaultlib"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/l2/xilinx/vc707/ip_cores/bram_4096x144/bram_4096x144.xci"/>
-          <Attr Name="ImportTime" Val="1488275939"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1880,16 +1841,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/ip/bram_2p_256x176/bram_2p_256x176.xci">
-        <FileInfo>
-          <Attr Name="Library" Val="xil_defaultlib"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/l2/xilinx/vc707/ip_cores/bram_2p_256x176/bram_2p_256x176.xci"/>
-          <Attr Name="ImportTime" Val="1488275937"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/imports/design/chip/tile/l2/rtl/l2_priority_encoder.tmp.v">
         <FileInfo>
           <Attr Name="Library" Val="xil_defaultlib"/>
@@ -2155,36 +2106,6 @@
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu.v"/>
           <Attr Name="ImportTime" Val="1461089413"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/bram_512x32/bram_512x32.xci">
-        <FileInfo>
-          <Attr Name="Library" Val="xil_defaultlib"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/l15/xilinx/vc707/ip_cores/bram_512x32/bram_512x32.xci"/>
-          <Attr Name="ImportTime" Val="1488275944"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/bram_512x128/bram_512x128.xci">
-        <FileInfo>
-          <Attr Name="Library" Val="xil_defaultlib"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/l15/xilinx/vc707/ip_cores/bram_512x128/bram_512x128.xci"/>
-          <Attr Name="ImportTime" Val="1488275942"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/bram_128x160/bram_128x160.xci">
-        <FileInfo>
-          <Attr Name="Library" Val="xil_defaultlib"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/common/xilinx/vc707/ip_cores/bram_128x160/bram_128x160.xci"/>
-          <Attr Name="ImportTime" Val="1488275912"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -2995,60 +2916,6 @@
           <Attr Name="Library" Val="xil_defaultlib"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/noc_axilite_bridge/rtl/noc_axilite_bridge.v"/>
           <Attr Name="ImportTime" Val="1476727630"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/afifo_w3_d16/afifo_w3_d16.xci">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/afifo_w3_d16/afifo_w3_d16.xci"/>
-          <Attr Name="ImportTime" Val="1488277524"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/fifo_w3_d16/fifo_w3_d16.xci">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/fifo_w3_d16/fifo_w3_d16.xci"/>
-          <Attr Name="ImportTime" Val="1488277737"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/afifo_w64_d16/afifo_w64_d16.xci">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/afifo_w64_d16/afifo_w64_d16.xci"/>
-          <Attr Name="ImportTime" Val="1488277524"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/fifo_w64_d16/fifo_w64_d16.xci">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/fifo_w64_d16/fifo_w64_d16.xci"/>
-          <Attr Name="ImportTime" Val="1488277525"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/afifo_w3/afifo_w3.xci">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/common/fpga_bridge/fpga_rcv/xilinx/genesys2/ip_cores/afifo_w3/afifo_w3.xci"/>
-          <Attr Name="ImportTime" Val="1488278673"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/afifo_w64/afifo_w64.xci">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/common/fpga_bridge/common/xilinx/genesys2/ip_cores/afifo_w64/afifo_w64.xci"/>
-          <Attr Name="ImportTime" Val="1488278673"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -4418,33 +4285,6 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sim_1/imports/manycore/cross_module.tmp.h">
-        <FileInfo>
-          <Attr Name="IsGlobalInclude" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/verif/env/manycore/cross_module.tmp.h"/>
-          <Attr Name="ImportTime" Val="1488286240"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/test_infrstrct/test_infrstrct_fifo.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/verif/env/test_infrstrct/test_infrstrct_fifo.v"/>
-          <Attr Name="ImportTime" Val="1460434684"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sim_1/imports/test_infrstrct/test_source.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/verif/env/test_infrstrct/test_source.v"/>
-          <Attr Name="ImportTime" Val="1460434684"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sim_1/imports/test_infrstrct/test_infrstrct.v">
         <FileInfo>
           <Attr Name="IsGlobalInclude" Val="1"/>
@@ -4455,8 +4295,138 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/cross_module.tmp.h">
+        <FileInfo>
+          <Attr Name="IsGlobalInclude" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/verif/env/manycore/cross_module.tmp.h"/>
+          <Attr Name="ImportTime" Val="1488286240"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/tso_mon.tmp.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/sparc_pipe_flow.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/sas_tasks.tmp.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/sas_intf.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/monitor.tmp.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/manycore_network_mon.tmp.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/l2_mon.tmp.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/jtag_mon.tmp.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/iob_mon.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/env/common/fake_mem_ctrl.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/verif/env/common/fake_mem_ctrl.v"/>
+          <Attr Name="ImportTime" Val="1460434684"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/dmbr_mon.tmp.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/cmp_l15_messages_mon.tmp.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/ciop_iob.tmp.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/manycore/manycore_top.tmp.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/test_infrstrct/test_infrstrct_fifo.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/verif/env/test_infrstrct/test_infrstrct_fifo.v"/>
+          <Attr Name="ImportTime" Val="1460434684"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/test_infrstrct/test_source.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/verif/env/test_infrstrct/test_source.v"/>
+          <Attr Name="ImportTime" Val="1460434684"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sim_1/imports/test_infrstrct/test_sink.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/verif/env/test_infrstrct/test_sink.v"/>
           <Attr Name="ImportTime" Val="1488284738"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -4466,6 +4436,7 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/uart_serializer/uart_serializer_top.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/verif/env/uart_serializer/uart_serializer_top.v"/>
           <Attr Name="ImportTime" Val="1476994293"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -4473,11 +4444,81 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sim_1/imports/env/common/fake_mem_ctrl.v">
+      <File Path="$PSRCDIR/sim_1/imports/rtl/walk_ones_addrdata.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/verif/env/common/fake_mem_ctrl.v"/>
-          <Attr Name="ImportTime" Val="1460434684"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/fpga_tests/memio_unit_tests/common/rtl/walk_ones_addrdata.v"/>
+          <Attr Name="ImportTime" Val="1476727630"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/rtl/random_data_addrdata.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/fpga_tests/memio_unit_tests/common/rtl/random_data_addrdata.v"/>
+          <Attr Name="ImportTime" Val="1476727630"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/rtl/random_addrdata.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/fpga_tests/memio_unit_tests/common/rtl/random_addrdata.v"/>
+          <Attr Name="ImportTime" Val="1476727630"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/rtl/address_own_addrdata.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/fpga_tests/memio_unit_tests/common/rtl/address_own_addrdata.v"/>
+          <Attr Name="ImportTime" Val="1476727630"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/rtl/mem_test_seq_driver.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/fpga_tests/memio_unit_tests/common/rtl/mem_test_seq_driver.v"/>
+          <Attr Name="ImportTime" Val="1476727630"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/rtl/mem_test_par_driver.tmp.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/fpga_tests/memio_unit_tests/common/rtl/mem_test_par_driver.tmp.v"/>
+          <Attr Name="ImportTime" Val="1488475047"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/rtl/memctrl_test.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/fpga_tests/memio_unit_tests/memctrl_test/rtl/memctrl_test.v"/>
+          <Attr Name="ImportTime" Val="1476727630"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/memctrl_test/memctrl_test_top.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/verif/env/memctrl_test/memctrl_test_top.v"/>
+          <Attr Name="ImportTime" Val="1476994293"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -4495,7 +4536,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="uart_serializer_top"/>
+        <Option Name="TopModule" Val="cmp_top"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
         <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
@@ -4904,6 +4945,405 @@
         <Define Name="VC707_BOARD"/>
       </Config>
     </FileSet>
+    <FileSet Name="clk_mmcm_memio_unit_tests" Type="BlockSrcs" RelSrcDir="$PSRCDIR/clk_mmcm_memio_unit_tests">
+      <File Path="$PSRCDIR/sources_1/ip/clk_mmcm_memio_unit_tests/clk_mmcm_memio_unit_tests.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/fpga_tests/memio_unit_tests/common/xilinx/genesys2/ip_cores/clk_mmcm_memio_unit_tests/clk_mmcm_memio_unit_tests.xci"/>
+          <Attr Name="ImportTime" Val="1476727630"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="clk_mmcm_memio_unit_tests"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bram_128x80" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bram_128x80">
+      <File Path="$PSRCDIR/sources_1/ip/bram_128x80/bram_128x80.xci">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/sparc/srams/xilinx/vc707/ip_cores/bram_128x80/bram_128x80.xci"/>
+          <Attr Name="ImportTime" Val="1488275914"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="bram_128x80"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bram_256x104" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bram_256x104">
+      <File Path="$PSRCDIR/sources_1/ip/bram_256x104/bram_256x104.xci">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/l2/xilinx/vc707/ip_cores/bram_256x104/bram_256x104.xci"/>
+          <Attr Name="ImportTime" Val="1488275928"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="bram_256x104"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bram_1024x64" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bram_1024x64">
+      <File Path="$PSRCDIR/sources_1/ip/bram_1024x64/bram_1024x64.xci">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/l2/xilinx/vc707/ip_cores/bram_1024x64/bram_1024x64.xci"/>
+          <Attr Name="ImportTime" Val="1488275907"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="bram_1024x64"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bram_4096x144" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bram_4096x144">
+      <File Path="$PSRCDIR/sources_1/ip/bram_4096x144/bram_4096x144.xci">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/l2/xilinx/vc707/ip_cores/bram_4096x144/bram_4096x144.xci"/>
+          <Attr Name="ImportTime" Val="1488275939"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="bram_4096x144"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bram_2p_256x176" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bram_2p_256x176">
+      <File Path="$PSRCDIR/sources_1/ip/bram_2p_256x176/bram_2p_256x176.xci">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/l2/xilinx/vc707/ip_cores/bram_2p_256x176/bram_2p_256x176.xci"/>
+          <Attr Name="ImportTime" Val="1488275937"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="bram_2p_256x176"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bram_512x32" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bram_512x32">
+      <File Path="$PSRCDIR/sources_1/ip/bram_512x32/bram_512x32.xci">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/l15/xilinx/vc707/ip_cores/bram_512x32/bram_512x32.xci"/>
+          <Attr Name="ImportTime" Val="1488275944"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="bram_512x32"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bram_512x128" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bram_512x128">
+      <File Path="$PSRCDIR/sources_1/ip/bram_512x128/bram_512x128.xci">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/l15/xilinx/vc707/ip_cores/bram_512x128/bram_512x128.xci"/>
+          <Attr Name="ImportTime" Val="1488275942"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="bram_512x128"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="bram_128x160" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bram_128x160">
+      <File Path="$PSRCDIR/sources_1/ip/bram_128x160/bram_128x160.xci">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/tile/common/xilinx/vc707/ip_cores/bram_128x160/bram_128x160.xci"/>
+          <Attr Name="ImportTime" Val="1488275912"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="bram_128x160"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="afifo_w3_d16" Type="BlockSrcs" RelSrcDir="$PSRCDIR/afifo_w3_d16">
+      <File Path="$PSRCDIR/sources_1/ip/afifo_w3_d16/afifo_w3_d16.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/afifo_w3_d16/afifo_w3_d16.xci"/>
+          <Attr Name="ImportTime" Val="1488277524"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="afifo_w3_d16"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="fifo_w3_d16" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fifo_w3_d16">
+      <File Path="$PSRCDIR/sources_1/ip/fifo_w3_d16/fifo_w3_d16.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/fifo_w3_d16/fifo_w3_d16.xci"/>
+          <Attr Name="ImportTime" Val="1488277737"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="fifo_w3_d16"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="afifo_w64_d16" Type="BlockSrcs" RelSrcDir="$PSRCDIR/afifo_w64_d16">
+      <File Path="$PSRCDIR/sources_1/ip/afifo_w64_d16/afifo_w64_d16.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/afifo_w64_d16/afifo_w64_d16.xci"/>
+          <Attr Name="ImportTime" Val="1488277524"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="afifo_w64_d16"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="fifo_w64_d16" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fifo_w64_d16">
+      <File Path="$PSRCDIR/sources_1/ip/fifo_w64_d16/fifo_w64_d16.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/chip/chip_bridge/xilinx/genesys2/ip_cores/fifo_w64_d16/fifo_w64_d16.xci"/>
+          <Attr Name="ImportTime" Val="1488277525"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="fifo_w64_d16"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="afifo_w3" Type="BlockSrcs" RelSrcDir="$PSRCDIR/afifo_w3">
+      <File Path="$PSRCDIR/sources_1/ip/afifo_w3/afifo_w3.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/common/fpga_bridge/fpga_rcv/xilinx/genesys2/ip_cores/afifo_w3/afifo_w3.xci"/>
+          <Attr Name="ImportTime" Val="1488278673"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="afifo_w3"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="afifo_w64" Type="BlockSrcs" RelSrcDir="$PSRCDIR/afifo_w64">
+      <File Path="$PSRCDIR/sources_1/ip/afifo_w64/afifo_w64.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../openpiton/piton/design/common/fpga_bridge/common/xilinx/genesys2/ip_cores/afifo_w64/afifo_w64.xci"/>
+          <Attr Name="ImportTime" Val="1488278673"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="afifo_w64"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/include"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../../openpiton/piton/design/chipset/include"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+        <Define Name="NO_SCAN"/>
+        <Define Name="FPGA_SYN"/>
+        <Define Name="NO_USE_IBM_SRAMS"/>
+        <Define Name="PITON_FPGA_SYNTH"/>
+        <Define Name="PITON_PROTO"/>
+        <Define Name="PITON_FULL_SYSTEM"/>
+        <Define Name="FPGA_SYN_1THREAD"/>
+        <Define Name="PITON_FPGA_NO_DMBR"/>
+        <Define Name="VC707_BOARD"/>
+      </Config>
+    </FileSet>
   </FileSets>
   <Simulators>
     <Simulator Name="XSim">
@@ -4941,25 +5381,28 @@
       </Strategy>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="afifo_splitter_mem_synth_1" Type="Ft3:Synth" SrcSet="afifo_splitter_mem" Part="xc7vx485tffg1761-2" ConstrsSet="afifo_splitter_mem" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+    <Run Id="afifo_splitter_mem_synth_1" Type="Ft3:Synth" SrcSet="afifo_splitter_mem" Part="xc7vx485tffg1761-2" ConstrsSet="afifo_splitter_mem" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/afifo_splitter_mem_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="afifo_mem_splitter_synth_1" Type="Ft3:Synth" SrcSet="afifo_mem_splitter" Part="xc7vx485tffg1761-2" ConstrsSet="afifo_mem_splitter" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+    <Run Id="afifo_mem_splitter_synth_1" Type="Ft3:Synth" SrcSet="afifo_mem_splitter" Part="xc7vx485tffg1761-2" ConstrsSet="afifo_mem_splitter" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/afifo_mem_splitter_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="mig_7series_0_synth_1" Type="Ft3:Synth" SrcSet="mig_7series_0" Part="xc7vx485tffg1761-2" ConstrsSet="mig_7series_0" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+    <Run Id="mig_7series_0_synth_1" Type="Ft3:Synth" SrcSet="mig_7series_0" Part="xc7vx485tffg1761-2" ConstrsSet="mig_7series_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/mig_7series_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design"/>
       </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
     <Run Id="bram_256x512_synth_1" Type="Ft3:Synth" SrcSet="bram_256x512" Part="xc7vx485tffg1761-2" ConstrsSet="bram_256x512" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
@@ -5035,6 +5478,143 @@
     <Run Id="atg_uart_init_synth_1" Type="Ft3:Synth" SrcSet="atg_uart_init" Part="xc7vx485tffg1761-2" ConstrsSet="atg_uart_init" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="clk_mmcm_memio_unit_tests_synth_1" Type="Ft3:Synth" SrcSet="clk_mmcm_memio_unit_tests" Part="xc7vx485tffg1761-2" ConstrsSet="clk_mmcm_memio_unit_tests" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/clk_mmcm_memio_unit_tests_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_128x80_synth_1" Type="Ft3:Synth" SrcSet="bram_128x80" Part="xc7vx485tffg1761-2" ConstrsSet="bram_128x80" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bram_128x80_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_256x104_synth_1" Type="Ft3:Synth" SrcSet="bram_256x104" Part="xc7vx485tffg1761-2" ConstrsSet="bram_256x104" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bram_256x104_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_1024x64_synth_1" Type="Ft3:Synth" SrcSet="bram_1024x64" Part="xc7vx485tffg1761-2" ConstrsSet="bram_1024x64" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/bram_1024x64_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_4096x144_synth_1" Type="Ft3:Synth" SrcSet="bram_4096x144" Part="xc7vx485tffg1761-2" ConstrsSet="bram_4096x144" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_2p_256x176_synth_1" Type="Ft3:Synth" SrcSet="bram_2p_256x176" Part="xc7vx485tffg1761-2" ConstrsSet="bram_2p_256x176" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_512x32_synth_1" Type="Ft3:Synth" SrcSet="bram_512x32" Part="xc7vx485tffg1761-2" ConstrsSet="bram_512x32" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_512x128_synth_1" Type="Ft3:Synth" SrcSet="bram_512x128" Part="xc7vx485tffg1761-2" ConstrsSet="bram_512x128" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_128x160_synth_1" Type="Ft3:Synth" SrcSet="bram_128x160" Part="xc7vx485tffg1761-2" ConstrsSet="bram_128x160" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="afifo_w3_d16_synth_1" Type="Ft3:Synth" SrcSet="afifo_w3_d16" Part="xc7vx485tffg1761-2" ConstrsSet="afifo_w3_d16" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="fifo_w3_d16_synth_1" Type="Ft3:Synth" SrcSet="fifo_w3_d16" Part="xc7vx485tffg1761-2" ConstrsSet="fifo_w3_d16" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="afifo_w64_d16_synth_1" Type="Ft3:Synth" SrcSet="afifo_w64_d16" Part="xc7vx485tffg1761-2" ConstrsSet="afifo_w64_d16" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="fifo_w64_d16_synth_1" Type="Ft3:Synth" SrcSet="fifo_w64_d16" Part="xc7vx485tffg1761-2" ConstrsSet="fifo_w64_d16" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="afifo_w3_synth_1" Type="Ft3:Synth" SrcSet="afifo_w3" Part="xc7vx485tffg1761-2" ConstrsSet="afifo_w3" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="afifo_w64_synth_1" Type="Ft3:Synth" SrcSet="afifo_w64" Part="xc7vx485tffg1761-2" ConstrsSet="afifo_w64" Description="Vivado Synthesis Defaults" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
@@ -5260,6 +5840,259 @@
     <Run Id="atg_uart_init_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="atg_uart_init" Description="Default settings for Implementation." SynthRun="atg_uart_init_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="clk_mmcm_memio_unit_tests_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="clk_mmcm_memio_unit_tests" Description="Default settings for Implementation." SynthRun="clk_mmcm_memio_unit_tests_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_128x80_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="bram_128x80" Description="Default settings for Implementation." SynthRun="bram_128x80_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_256x104_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="bram_256x104" Description="Default settings for Implementation." SynthRun="bram_256x104_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_1024x64_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="bram_1024x64" Description="Default settings for Implementation." SynthRun="bram_1024x64_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_4096x144_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="bram_4096x144" Description="Default settings for Implementation." SynthRun="bram_4096x144_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_2p_256x176_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="bram_2p_256x176" Description="Default settings for Implementation." SynthRun="bram_2p_256x176_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_512x32_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="bram_512x32" Description="Default settings for Implementation." SynthRun="bram_512x32_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_512x128_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="bram_512x128" Description="Default settings for Implementation." SynthRun="bram_512x128_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="bram_128x160_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="bram_128x160" Description="Default settings for Implementation." SynthRun="bram_128x160_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="afifo_w3_d16_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="afifo_w3_d16" Description="Default settings for Implementation." SynthRun="afifo_w3_d16_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="fifo_w3_d16_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="fifo_w3_d16" Description="Default settings for Implementation." SynthRun="fifo_w3_d16_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="afifo_w64_d16_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="afifo_w64_d16" Description="Default settings for Implementation." SynthRun="afifo_w64_d16_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="fifo_w64_d16_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="fifo_w64_d16" Description="Default settings for Implementation." SynthRun="fifo_w64_d16_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="afifo_w3_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="afifo_w3" Description="Default settings for Implementation." SynthRun="afifo_w3_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="afifo_w64_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="afifo_w64" Description="Default settings for Implementation." SynthRun="afifo_w64_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

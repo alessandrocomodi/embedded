@@ -1,0 +1,416 @@
+/home/alessandro/Documents/embedded_prj/manycore/rel-0.1/config.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/axi_lite_slave_rf/rtl/axi_lite_slave_rf.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/iosplitter_axi_lite/rtl/iosplitter_axi_lite.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/iosplitter_axi_lite/rtl/iosplitter_axi_lite_updated.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/io_ctrl/rtl/io_ctrl_top.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/mem_io_splitter/rtl/mem_io_splitter.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/mem_io_splitter/rtl/uart_boot_splitter.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/mem_io_splitter/rtl/iob_splitter.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/noc_axilite_bridge/rtl/noc_axilite_bridge.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/noc_axilite_bridge/rtl/noc_axilite_bridge_boot.v
+/home/alessandro/Documents/openpiton/piton/verif/env/common/fake_mem_ctrl.v
+/usr/licensed/xilinx/Vivado/2014.4/data/verilog/src/glbl.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/clk_29MHz/clk_29MHz_funcsim.v
++incdir+/home/alessandro/Documents/openpiton/piton/verif/env/manycore/../../../design/include
++incdir+/home/alessandro/Documents/openpiton/piton/verif/env/manycore/.
+/home/alessandro/Documents/openpiton/piton/verif/env/manycore/cross_module.tmp.h
+/home/alessandro/Documents/openpiton/piton/verif/env/manycore/manycore_network_mon.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/sas_intf.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/monitor.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/sas_tasks.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/pc_cmp.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/sas_task.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/l_cache_mon.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/thrfsm_mon.v // monitors for X's in the processor states
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/sparc_pipe_flow.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/multicycle_mon.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/dmbr_mon.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/cmp_pcxandcpx.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/tso_mon.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/lsu_mon.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/lsu_mon2.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/exu_mon.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/mask_mon.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/pc_muxsel_mon.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/nukeint_mon.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/stb_ovfl_mon.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/icache_mutex_mon.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/nc_inv_chk.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/tlu_mon.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/softint_mon.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/slam_init.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/ciop_iob.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/cmp_l15_messages_mon.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/jtag_mon.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/l2_mon.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/async_fifo_mon.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/verif/env/manycore/iob_mon.v
+/home/alessandro/Documents/openpiton/piton/verif/env/manycore/manycore_top.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/proto/bram_map.v
+/home/alessandro/Documents/openpiton/piton/design/proto/bram_map_obp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/rtl/sync_fifo.v
+/home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/rtl/chip_bridge_rcv_32.v
+/home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/rtl/chip_bridge_send_32.v
+/home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/rtl/chip_net_chooser_32.v
+/home/alessandro/Documents/openpiton/piton/design/chip/chip_bridge/rtl/chip_bridge.v
+/home/alessandro/Documents/openpiton/piton/design/common/fpga_bridge/fpga_rcv/rtl/fpga_bridge_rcv_32.v
+/home/alessandro/Documents/openpiton/piton/design/common/fpga_bridge/fpga_send/rtl/fpga_bridge_send_32.v
+/home/alessandro/Documents/openpiton/piton/design/common/fpga_bridge/fpga_send/rtl/fpga_net_chooser_32.v
+/home/alessandro/Documents/openpiton/piton/design/common/fpga_bridge/rtl/fpga_bridge.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/rtl/chipset.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/rtl/chipset_impl.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/rtl/storage_addr_trans.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_data.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_data_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_data_pgen.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_data_ecc.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_decoder.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_dir.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_dir_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_encoder.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_mshr.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_mshr_decoder.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_mshr_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1_buf_in.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1_buf_out.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1_ctrl.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1_dpath.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe2.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe2_buf_in.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe2_ctrl.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe2_dpath.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_state.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_state_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_tag.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_tag_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_smc.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_smc_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_config_regs.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_priority_encoder.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_broadcast_counter.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/l2_broadcast_counter_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/sram_wrappers/sram_l2_tag.v.xlx.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/sram_wrappers/sram_l2_data.v.xlx.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/sram_wrappers/sram_l2_state.v.xlx.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l2/rtl/sram_wrappers/sram_l2_dir.v.xlx.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_control.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_route_request_calc.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_top_16.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_top_4.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_control.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_datapath.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_top.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_control_para.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_route_request_calc_para.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_top_16_para.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_top_4_para.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_control_para.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_datapath_para.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_top_para.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/bus_compare_equal.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/flip_bus.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/one_of_eight.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/one_of_five.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/one_of_n.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/one_of_n_plus_3.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/net_dff.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/common/rtl/network_input_blk_multi_out.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/common/rtl/space_avail_top.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/rtl/dynamic_node_top_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/rtl/dynamic_node_top.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/rtl/dynamic_node_top_wrap_para.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dynamic_node/rtl/dynamic_node_top_para.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/dmbr/rtl/dmbr.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/common/srams/rtl/bw_r_rf16x160.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/credit_to_valrdy.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/valrdy_to_credit.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/flat_id_to_xy.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/ucb_bus_in.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/ucb_bus_out.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/ucb_flow_2buf.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/ucb_flow_spi.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/ucb_noflow.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/cluster_header.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/cluster_header_sync.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/cluster_header_dup.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/cluster_header_ctu.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/synchronizer_asr.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/synchronizer_asr_dup.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/sync_pulse_synchronizer.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/clk_gating_latch.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/swrvr_dlib.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/mul64.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/swrvr_clib.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/u1.beh.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/common/rtl/m1.beh.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/rtl/../srams/rtl/bw_r_itlb.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/rtl/../srams/rtl/bw_r_dtlb.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/rtl/../ifu/rtl/sparc_ifu_rndrob.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/rtl/../lsu/rtl/lsu_dc_parity_gen.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/bw_r_frf.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/sram_wrappers/sram_1rw_128x78.v.xlx.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/bw_r_icd.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/sram_wrappers/sram_l1i_data.v.xlx.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/sram_wrappers/sram_l1i_tag.v.xlx.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/sram_l1i_val.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/bw_r_scm.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/bw_r_dcd.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/sram_wrappers/sram_l1d_data.v.xlx.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/bw_r_rf32x152b.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/sram_wrappers/sram_l1d_tag.v.xlx.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/sram_l1d_val.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/bw_r_ict.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/bw_r_dct.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/srams/rtl/bw_r_rf32x80.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/mul/rtl/sparc_mul_top_nospu_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/mul/rtl/sparc_mul_top.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/mul/rtl/sparc_mul_cntl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/mul/rtl/sparc_mul_dp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/bw_r_irf/bw_r_irf_register16/rtl/bw_r_irf_register16.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/bw_r_irf/bw_r_irf_register8/rtl/bw_r_irf_register8.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/bw_r_irf/common/rtl/bw_r_irf_register.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/bw_r_irf/rtl/bw_r_irf_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/bw_r_irf/rtl/bw_r_irf.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_alu.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_aluadder64.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_aluaddsub.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_alulogic.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_aluor32.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_aluspr.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_aluzcmp64.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_alu_16eql.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_byp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_byp_eccgen.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_div.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_div_yreg.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_div_32eql.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_ecc.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_ecc_dec.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_ecl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_eclbyplog.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_eclbyplog_rs1.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_eclccr.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_eclcomp7.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_ecl_cnt6.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_ecl_divcntl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_ecl_eccctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_ecl_mdqctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_ecl_wb.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_reg.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_rml.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_rml_cwp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_rml_inc3.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_rndrob.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/exu/rtl/sparc_exu_shft.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ffu/rtl/sparc_ffu_nospu_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ffu/rtl/sparc_ffu.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ffu/rtl/sparc_ffu_ctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ffu/rtl/sparc_ffu_ctl_visctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ffu/rtl/sparc_ffu_dp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ffu/rtl/sparc_ffu_part_add32.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ffu/rtl/sparc_ffu_vis.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu_nospu_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu_incr64.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu_mmu_ctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu_mmu_dp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu_pib.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu_addern_32.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu_prencoder16.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu_rrobin_picker.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu_tcl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu_tdp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu_hyperv.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/tlu_misctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/sparc_tlu_dec64.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/sparc_tlu_intctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/sparc_tlu_intdp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/sparc_tlu_penc64.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/tlu/rtl/sparc_tlu_zcmp64.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_nospu_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_asi_decode.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_dcdp.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_excpctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_dctl.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_dctldp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_tagdp.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_tlbdp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_pcx_qmon.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_rrobin_picker2.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_stb_ctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_stb_ctldp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_stb_rwctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_stb_rwdp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_qctl1.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_qctl2.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_qdp1.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_qdp2.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/lsu/rtl/lsu_dcache_lfsr.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_nospu_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_cmp35.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_ctr5.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_dcl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_dec.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_errctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_errdp.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_fcl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_fdp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_wseldp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_sscan.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_ifqctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_ifqdp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_imd.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_incr46.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_invctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_lfsr5.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_lru4.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_milfsm.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_par16.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_par32.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_par34.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_swl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_swpla.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_thrcmpl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_thrfsm.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_fsm.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_stsm.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_rtsm.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_htsm.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_counter.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_lfsr.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_shiftreg.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/rtl/sparc_core.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/rtl/sparc.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/rtl/cpx_spc_rpt.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/rtl/cpx_spc_buf.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/rtl/cfg_asi.v
++define+RTL
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_add.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_add_ctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_add_exp_dp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_add_frac_dp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_arb.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_arb_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_buf.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_cnt_lead0_53b.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_cnt_lead0_64b.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_cnt_lead0_lvl1.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_cnt_lead0_lvl2.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_cnt_lead0_lvl3.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_cnt_lead0_lvl4.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_denorm_3b.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_denorm_3to1.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_denorm_frac.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_div.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_div_ctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_div_exp_dp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_div_frac_dp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_in.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_in_ctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_in_dp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_in2_gt_in1_2b.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_in2_gt_in1_3b.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_in2_gt_in1_3to1.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_in2_gt_in1_frac.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_mul.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_mul_ctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_mul_exp_dp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_mul_frac_dp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_out.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_out_ctl.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_out_dp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_rptr_macros.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_rptr_groups.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/fpu/rtl/fpu_rptr_min_global.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_wrap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_mshr.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/rf_l15_lruarray.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/rf_l15_mesi.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/rf_l15_wmt.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_cpxencoder.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/pcx_buffer.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/pcx_decoder.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/noc1encoder.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/noc1buffer.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/noc3encoder.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/noc3buffer.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/noc2decoder.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/simplenocbuffer.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_csm.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_hmc.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_home_encoder.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/l15_priority_encoder.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/sram_wrappers/sram_l15_tag.v.xlx.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/sram_wrappers/sram_l15_data.v.xlx.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/l15/rtl/sram_wrappers/sram_l15_hmt.v.xlx.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/rtap/rtl/rtap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/rtap/rtl/rtap_ucb_receiver.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/rtap/rtl/rtap_ucb_transmitter.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/rtl/config_regs.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/rtl/cpx_arbitrator.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/rtl/tile.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/chip/jtag/rtl/jtag.v
+/home/alessandro/Documents/openpiton/piton/design/chip/jtag/rtl/jtag_interface.v
+/home/alessandro/Documents/openpiton/piton/design/chip/jtag/rtl/jtag_interface_tap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/jtag/rtl/jtag_ctap.v
+/home/alessandro/Documents/openpiton/piton/design/chip/jtag/rtl/jtag_ucb_receiver.v
+/home/alessandro/Documents/openpiton/piton/design/chip/jtag/rtl/jtag_ucb_transmitter.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/axi_uartlite_0/axi_uartlite_0_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/uart_16550/uart_16550_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ddr3/ddr3_model.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ddr3/wiredly.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ddr3/vc707_ddr3_model.v
+-v /home/alessandro/Documents/embedded_prj/vc707/vc707_piton/vc707_piton.srcs/sources_1/ip/mig_7series_0_1/mig_7series_0_funcsim.v
+-v /opt/Xilinx/Vivado/2016.4/data/ip/xilinx/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_128x160/virtex7_bram_128x160_funcsim.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_4096x144_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_2048x144_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_1024x64_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_512x64_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_256x66_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_128x108_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_256x104_wrapper.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_2048x144/virtex7_bram_2048x144_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_2p_256x176/virtex7_bram_2p_256x176_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_2p_128x176/virtex7_bram_2p_128x176_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_512x64/virtex7_bram_512x64_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_128x108/virtex7_bram_128x108_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_256x104/virtex7_bram_256x104_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_4096x144/virtex7_bram_4096x144_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_1024x64/virtex7_bram_1024x64_funcsim.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_128x80_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_256x272_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_128x288_wrapper.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_128x80/virtex7_bram_128x80_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_128x288/virtex7_bram_128x288_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_512x128/virtex7_bram_512x128_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_512x32/virtex7_bram_512x32_funcsim.v
+/home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_256x512_wrapper.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_256x512/virtex7_bram_256x512_funcsim.v
+/home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_65536x512_wrapper.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_65536x512/virtex7_bram_65536x512_funcsim.v
+-v /home/alessandro/Documents/openpiton/piton/design/chip/rtl/chip.tmp.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/blinker.v
+/home/alessandro/Documents/openpiton/piton/design/chip/rtl/synchronizer.v
+/home/alessandro/Documents/openpiton/piton/design/chip/rtl/OCI.v
+/home/alessandro/Documents/openpiton/piton/design/rtl/system.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/include/mc_define.h
+/home/alessandro/Documents/openpiton/piton/design/chipset/include/uart16550_define.vh
+/home/alessandro/Documents/openpiton/piton/design/chipset/include/chipset_define.vh
+/home/alessandro/Documents/openpiton/piton/design/common/rtl/chip_rst_seq.v
+/home/alessandro/Documents/openpiton/piton/design/common/rtl/alarm_counter.v
+/home/alessandro/Documents/openpiton/piton/design/common/rtl/async_fifo.v
+/home/alessandro/Documents/openpiton/piton/design/include/l2.tmp.h
+/home/alessandro/Documents/openpiton/piton/design/include/l15.tmp.h
+/home/alessandro/Documents/openpiton/piton/design/include/lsu.tmp.h
+/home/alessandro/Documents/openpiton/piton/design/include/ifu.tmp.h

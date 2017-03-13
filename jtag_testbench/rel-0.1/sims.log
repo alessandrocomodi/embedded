@@ -1,0 +1,45 @@
+sims -sys=memctrl_test -x_tiles=1 -y_tiles=1 -xilinx -vc707 -vcs_build 
+sims: ====================================================
+sims:   Simulation Script for OpenPiton
+sims:   Modified by Princeton University on June 9th, 2015
+sims: ====================================================
+sims: ====================================================
+sims:   Simulation Script for OpenSPARC T1
+sims:   Copyright (c) 2001-2006 Sun Microsystems, Inc.
+sims:   All rights reserved.
+sims: ====================================================
+sims: start_time gio  2 mar 2017, 18.17.27, CET
+sims: running on thecommodore
+sims: uname is Linux thecommodore 4.8.0-39-generic #42~16.04.1-Ubuntu SMP Mon Feb 20 15:06:07 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+sims: version 1.262
+sims: dv_root /home/alessandro/Documents/openpiton/piton
+sims: model_dir /home/alessandro/Documents/embedded_prj
+sims: tre_search /home/alessandro/Documents/openpiton/piton/tools/env/tools.iver
+sims: using config file /home/alessandro/Documents/openpiton/piton/tools/src/sims/sims.config ()
+sims: using random seed 0
+network_config not specified, assuming 2dmesh configurationsims: creating model directory /home/alessandro/Documents/embedded_prj/memctrl_test/rel-0.1
+/home/alessandro/Documents/openpiton/piton/verif/env/memctrl_test/memctrl_test.flist
+
+
+
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/Flist.ifu_esl_lfsr
+
+
+
+/home/alessandro/Documents/openpiton/piton/design/common/rtl/Flist.common
+
+
+
+/home/alessandro/Documents/openpiton/piton/design/chipset/mc/rtl/Flist.mc.vc707
+
+
+
+/home/alessandro/Documents/openpiton/piton/design/fpga_tests/memio_unit_tests/common/rtl/Flist.common
+
+
+
+/home/alessandro/Documents/openpiton/piton/design/fpga_tests/memio_unit_tests/memctrl_test/rtl/Flist.memctrl_test
+
+
+
+sims: stop_time gio  2 mar 2017, 18.17.27, CET

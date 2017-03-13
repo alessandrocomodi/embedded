@@ -31,7 +31,7 @@
 
 //`include "test_infrstrct.v"
 
-`define VERBOSITY 0    // Can override from the command line
+`define VERBOSITY 1    // Can override from the command line
 
 // Testbench helper module
 module uart_serializer_top_helper
@@ -155,6 +155,9 @@ module uart_serializer_top;
     `TEST_CASE_BEGIN(1, test_case)
     begin
         // Read in source and sink bits from a file
+        $display("");
+        $display({test_cases_path, test_case, "_src.vmh"});
+        $display({test_cases_path, test_case, "_sink.vmh"});
         $readmemh({test_cases_path, test_case, "_src.vmh"}, helper.src.m_f);
         $readmemh({test_cases_path, test_case, "_sink.vmh"}, helper.sink.m_f); 
 

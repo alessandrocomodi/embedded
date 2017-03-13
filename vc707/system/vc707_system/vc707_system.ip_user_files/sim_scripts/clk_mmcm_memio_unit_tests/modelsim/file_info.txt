@@ -1,0 +1,4 @@
+xpm_cdc.sv,systemverilog,xil_defaultlib,../../../opt/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="../../../../vc707_system.srcs/sim_1/imports/manycore"incdir="../../../../vc707_system.srcs/sim_1/imports/test_infrstrct"
+xpm_memory.sv,systemverilog,xil_defaultlib,../../../opt/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,incdir="../../../../vc707_system.srcs/sim_1/imports/manycore"incdir="../../../../vc707_system.srcs/sim_1/imports/test_infrstrct"
+xpm_VCOMP.vhd,vhdl,xpm,../../../opt/Xilinx/Vivado/2016.4/data/ip/xpm/xpm_VCOMP.vhd,incdir="../../../../vc707_system.srcs/sim_1/imports/manycore"incdir="../../../../vc707_system.srcs/sim_1/imports/test_infrstrct"
+glbl.v,Verilog,xil_defaultlib,glbl.v

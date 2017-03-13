@@ -1,0 +1,5 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.4/bin/unwrapped/lnx64.o/xelab 
+Multi-threading is on. Using 6 slave threads.
+ERROR: [XSIM 43-3275] No design top(s) specified.

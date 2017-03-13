@@ -1,0 +1,16 @@
+/home/alessandro/Documents/embedded_prj/memctrl_test/rel-0.1/config.v
+/home/alessandro/Documents/openpiton/piton/verif/env/memctrl_test/memctrl_test_top.v
+/home/alessandro/Documents/openpiton/piton/verif/env/memctrl_test/ddr3_model.v
+/home/alessandro/Documents/openpiton/piton/design/chip/tile/sparc/ifu/rtl/sparc_ifu_esl_lfsr.v
+/home/alessandro/Documents/openpiton/piton/design/common/rtl/chip_rst_seq.v
+/home/alessandro/Documents/openpiton/piton/design/common/rtl/alarm_counter.v
+/home/alessandro/Documents/openpiton/piton/design/common/rtl/async_fifo.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/mc/rtl/mc_top.v
+/home/alessandro/Documents/openpiton/piton/design/chipset/mc/rtl/pkt_trans_dp.v
+/home/alessandro/Documents/openpiton/piton/design/fpga_tests/memio_unit_tests/common/rtl/mem_test_seq_driver.v
+/home/alessandro/Documents/openpiton/piton/design/fpga_tests/memio_unit_tests/common/rtl/mem_test_par_driver.tmp.v
+/home/alessandro/Documents/openpiton/piton/design/fpga_tests/memio_unit_tests/common/rtl/walk_ones_addrdata.v
+/home/alessandro/Documents/openpiton/piton/design/fpga_tests/memio_unit_tests/common/rtl/address_own_addrdata.v
+/home/alessandro/Documents/openpiton/piton/design/fpga_tests/memio_unit_tests/common/rtl/random_addrdata.v
+/home/alessandro/Documents/openpiton/piton/design/fpga_tests/memio_unit_tests/common/rtl/random_data_addrdata.v
+/home/alessandro/Documents/openpiton/piton/design/fpga_tests/memio_unit_tests/memctrl_test/rtl/memctrl_test.v

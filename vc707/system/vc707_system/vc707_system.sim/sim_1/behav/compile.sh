@@ -9,5 +9,5 @@ then
 exit $RETVAL
 fi
 }
-echo "xvlog -m64 --relax -prj uart_serializer_top_vlog.prj"
-ExecStep $xv_path/bin/xvlog -m64 --relax -prj uart_serializer_top_vlog.prj 2>&1 | tee compile.log
+echo "xvlog -m64 --relax -prj uart_serializer_top_vlog.prj -d PITON_MEMCTRL_TEST_MINI_TEST= -d PITON_MEMCTRL_TEST_SIM_CLKS= -d VERBOSITY=1"
+ExecStep $xv_path/bin/xvlog -m64 --relax -prj uart_serializer_top_vlog.prj -d PITON_MEMCTRL_TEST_MINI_TEST= -d PITON_MEMCTRL_TEST_SIM_CLKS= -d VERBOSITY=1 2>&1 | tee compile.log

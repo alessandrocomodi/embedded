@@ -10,5 +10,5 @@ This file contains global defines for the system
 `define PITON_FPGA_MC_DDR3
 `define PITON_FPGA_SD_BOOT
 */
-`define NO_SIM_PLL
-`define RTL_SPARC0
+//`define NO_SIM_PLL
+//`define RTL_SPARC0

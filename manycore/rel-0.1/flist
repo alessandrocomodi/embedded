@@ -1,16 +1,27 @@
++define+NO_JBUS_MON
++define+FSDB_OFF
++define+NO_VERA
+-y /opt/Xilinx/Vivado/2016.4/data/verilog/src/unisims
+-y /verilog/src/unisims
+-y /verilog/src/XilinxCoreLib
+-y /opt/Xilinx/Vivado/2016.4/data/verilog/src/unisims
+-y /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/secureip
+-y /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive
++define+PITON_PROTO
++define+VC707_BOARD
 /home/alessandro/Documents/embedded_prj/manycore/rel-0.1/config.v
 /home/alessandro/Documents/openpiton/piton/design/chipset/axi_lite_slave_rf/rtl/axi_lite_slave_rf.v
 /home/alessandro/Documents/openpiton/piton/design/chipset/iosplitter_axi_lite/rtl/iosplitter_axi_lite.v
 /home/alessandro/Documents/openpiton/piton/design/chipset/iosplitter_axi_lite/rtl/iosplitter_axi_lite_updated.v
 /home/alessandro/Documents/openpiton/piton/design/chipset/io_ctrl/rtl/io_ctrl_top.v
-/home/alessandro/Documents/openpiton/piton/design/chipset/io_ctrl/rtl/bram_map.v
-/home/alessandro/Documents/openpiton/piton/design/chipset/io_ctrl/rtl/ciop_iob.v
 /home/alessandro/Documents/openpiton/piton/design/chipset/mem_io_splitter/rtl/mem_io_splitter.v
 /home/alessandro/Documents/openpiton/piton/design/chipset/mem_io_splitter/rtl/uart_boot_splitter.v
 /home/alessandro/Documents/openpiton/piton/design/chipset/mem_io_splitter/rtl/iob_splitter.v
 /home/alessandro/Documents/openpiton/piton/design/chipset/noc_axilite_bridge/rtl/noc_axilite_bridge.v
 /home/alessandro/Documents/openpiton/piton/design/chipset/noc_axilite_bridge/rtl/noc_axilite_bridge_boot.v
 /home/alessandro/Documents/openpiton/piton/verif/env/common/fake_mem_ctrl.v
+/usr/licensed/xilinx/Vivado/2014.4/data/verilog/src/glbl.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/clk_29MHz/clk_29MHz_funcsim.v
 +incdir+/home/alessandro/Documents/openpiton/piton/verif/env/manycore/../../../design/include
 +incdir+/home/alessandro/Documents/openpiton/piton/verif/env/manycore/.
 /home/alessandro/Documents/openpiton/piton/verif/env/manycore/cross_module.tmp.h
@@ -365,6 +376,40 @@
 /home/alessandro/Documents/openpiton/piton/design/chip/jtag/rtl/jtag_ctap.v
 /home/alessandro/Documents/openpiton/piton/design/chip/jtag/rtl/jtag_ucb_receiver.v
 /home/alessandro/Documents/openpiton/piton/design/chip/jtag/rtl/jtag_ucb_transmitter.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/axi_uartlite_0/axi_uartlite_0_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/uart_16550/uart_16550_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ddr3/ddr3_model.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ddr3/wiredly.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ddr3/vc707_ddr3_model.v
+-v /home/alessandro/Documents/embedded_prj/vc707/vc707_piton/vc707_piton.srcs/sources_1/ip/mig_7series_0_1/mig_7series_0_funcsim.v
+-v /opt/Xilinx/Vivado/2016.4/data/ip/xilinx/blk_mem_gen_v8_2/simulation/blk_mem_gen_v8_2.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_128x160/virtex7_bram_128x160_funcsim.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_4096x144_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_2048x144_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_1024x64_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_512x64_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_256x66_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_128x108_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_256x104_wrapper.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_2048x144/virtex7_bram_2048x144_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_2p_256x176/virtex7_bram_2p_256x176_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_2p_128x176/virtex7_bram_2p_128x176_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_512x64/virtex7_bram_512x64_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_128x108/virtex7_bram_128x108_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_256x104/virtex7_bram_256x104_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_4096x144/virtex7_bram_4096x144_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_1024x64/virtex7_bram_1024x64_funcsim.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_128x80_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_256x272_wrapper.v
+-v /home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_128x288_wrapper.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_128x80/virtex7_bram_128x80_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_128x288/virtex7_bram_128x288_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_512x128/virtex7_bram_512x128_funcsim.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_512x32/virtex7_bram_512x32_funcsim.v
+/home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_256x512_wrapper.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_256x512/virtex7_bram_256x512_funcsim.v
+/home/alessandro/Documents/openpiton/piton/design/proto/bram_sdp_65536x512_wrapper.v
+-v /home/alessandro/Documents/embedded_prj/vc707/ip_cores/virtex7_bram_65536x512/virtex7_bram_65536x512_funcsim.v
 -v /home/alessandro/Documents/openpiton/piton/design/chip/rtl/chip.tmp.v
 -v /home/alessandro/Documents/openpiton/piton/design/proto/blinker.v
 /home/alessandro/Documents/openpiton/piton/design/chip/rtl/synchronizer.v

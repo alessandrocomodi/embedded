@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Mar  9 16:16:39 2017
+# Process ID: 18814
+# Current directory: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/bram_256x104_synth_1
+# Command line: vivado -log bram_256x104.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bram_256x104.tcl
+# Log file: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/bram_256x104_synth_1/bram_256x104.vds
+# Journal file: /home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/bram_256x104_synth_1/vivado.jou
+#-----------------------------------------------------------
+source bram_256x104.tcl -notrace

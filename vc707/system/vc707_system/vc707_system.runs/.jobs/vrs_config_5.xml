@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="bram_128x80_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/bram_128x80_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bram_256x104_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/bram_256x104_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bram_1024x64_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/bram_1024x64_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bram_4096x144_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/bram_4096x144_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bram_2p_256x176_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/bram_2p_256x176_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bram_512x32_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/bram_512x32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bram_512x128_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/bram_512x128_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bram_128x160_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/bram_128x160_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="afifo_w3_d16_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/afifo_w3_d16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_w3_d16_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/fifo_w3_d16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="afifo_w64_d16_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/afifo_w64_d16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_w64_d16_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/fifo_w64_d16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="afifo_w3_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/afifo_w3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="afifo_w64_synth_1" LaunchDir="/home/alessandro/Documents/embedded_prj/vc707/system/vc707_system/vc707_system.runs/afifo_w64_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

@@ -1,0 +1,2 @@
+gio  2 mar 2017, 18.17.02, CET sims 
+gio  2 mar 2017, 18.17.27, CET sims -sys=memctrl_test -x_tiles=1 -y_tiles=1 -xilinx -vc707 -vcs_build 
